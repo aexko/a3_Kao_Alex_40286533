@@ -1,6 +1,9 @@
-(ns a2
+(ns menu_only
   (:require [clojure.string :as str])
-  (:require [clojure.java.io :as io]))
+  (:require [clojure.java.io :as io])
+  (:require [clojure.pprint :as pprint])
+  )
+  
   ; this is where you would also include/require the compress module
 
 
@@ -19,12 +22,16 @@
     (flush) 
     (read-line)))
 
+; file-seq can be used to get a list of all files in the current folder
+(def f (clojure.java.io/file "."))
+
+(def fs (file-seq f))
+(first fs)
 
 ; Display all files in the current folder
 (defn option1
   []
-  (println "use file-seq to get and print a list of all files in the current folder"))
-    
+(clojure.pprint/pprint (take 10 fs)))    
     
     
 ; Read and display the file contents (if the file exists). Java's File class can be used to 
