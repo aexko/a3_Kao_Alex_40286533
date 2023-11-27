@@ -1,11 +1,1154 @@
-; Connecting ...
-; Reading port file: file:///c%3A/Users/Alex/Git/a3_Kao_Alex_40286533/.nrepl-port ...
-; No nrepl port file found.
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "undefined" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Aborting jack-in. No project type selected.
 ; Connecting using "ClojureScript nREPL Server" project type.
 ; You can make Calva auto-select this.
 ;   - See https://calva.io/connect-sequences/
 ; 
 ; Connecting ...
-; Reading port file: file:///c%3A/Users/Alex/Git/a3_Kao_Alex_40286533/.nrepl-port ...
+; Reading port file: file:///home/aexkxo/Git/a3_Kao_Alex_40286533/.nrepl-port ...
 ; No nrepl port file found.
-; Bad url: localhost:
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: ClojureScript nREPL Server...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+; Syntax error (IllegalArgumentException) compiling try at (/home/aexkxo/Git/a3_Kao_Alex_40286533/.calva/output-window/output.calva-repl:31:1).
+; Unable to resolve classname: :default
+cljs꞉user꞉>  ; Use `alt+enter` to evaluate
+; Evaluating file: menu_only.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file menu_only.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/menu_only.clj:85:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:85:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Good Bye
+
+nil
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/showMenu
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/showMenu
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/showMenu
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/showMenu
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/showMenu
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/showMenu
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:104:1).
+; EOF while reading, starting at line 12
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉user꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:93:23).
+; null
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? clj꞉a3_Kao_Alex_40286533꞉> 
+Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:90:23).
+; null
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? clj꞉a3_Kao_Alex_40286533꞉> 
+Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:90:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; () - failed: Insufficient input at: [:ns-clauses :refer-clojure :clause] spec: :clojure.core.specs.alpha/ns-refer-clojure
+; () - failed: Insufficient input at: [:ns-clauses :require :clause] spec: :clojure.core.specs.alpha/ns-require
+; () - failed: Insufficient input at: [:ns-clauses :import :clause] spec: :clojure.core.specs.alpha/ns-import
+; () - failed: Insufficient input at: [:ns-clauses :use :clause] spec: :clojure.core.specs.alpha/ns-use
+; () - failed: Insufficient input at: [:ns-clauses :refer :clause] spec: :clojure.core.specs.alpha/ns-refer
+; () - failed: Insufficient input at: [:ns-clauses :load :clause] spec: :clojure.core.specs.alpha/ns-load
+; () - failed: Insufficient input at: [:ns-clauses :gen-class :clause] spec: :clojure.core.specs.alpha/ns-gen-class
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; Could not locate compress__init.class, compress.clj or compress.cljc on classpath.
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; nREPL Connection was closed
+; Connecting using "ClojureScript nREPL Server" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///home/aexkxo/Git/a3_Kao_Alex_40286533/.nrepl-port ...
+; No nrepl port file found.
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: ClojureScript nREPL Server...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+; Syntax error (IllegalArgumentException) compiling try at (/home/aexkxo/Git/a3_Kao_Alex_40286533/.calva/output-window/output.calva-repl:225:1).
+; Unable to resolve classname: :default
+cljs꞉user꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:87:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+(#object[java.io.File 0x159926ca "c:\\clojure-1.2.0"])
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:90:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+(#object[java.io.File 0x57b591e1 "c:\\clojure-1.2.0"])
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:90:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+(#object[java.io.File 0x561f23da "c:\\clojure-1.2.0"])
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:90:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? (#object[java.io.File 0x707fe92b "c:\\clojure-1.2.0"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:40:19).
+; Unsupported character: \nPlease
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? (#object[java.io.File 0x3b792fe2 "."]
+ #object[java.io.File 0x159e7c3b "./.git"]
+ #object[java.io.File 0x9748817 "./.git/branches"]
+ #object[java.io.File 0x230cbc51 "./.git/hooks"]
+ #object[java.io.File 0x378b8029 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x42b20f35 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x6fab1344 "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x2983d4d4 "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x42629305 "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x10fbf7db "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/f
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/f
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/f
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/fs
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/option1
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/option1
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? (#object[java.io.File 0x3471bc65 "."]
+ #object[java.io.File 0x7cbefefb "./.git"]
+ #object[java.io.File 0x3e9f3bf4 "./.git/branches"]
+ #object[java.io.File 0x4e3c0837 "./.git/hooks"]
+ #object[java.io.File 0x5f741be0 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x56b79b21 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x11b05a98 "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x3fe38529 "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x40b7222e "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x2ab3d78a "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+(#object[java.io.File 0x3471bc65 "."]
+ #object[java.io.File 0x7cbefefb "./.git"]
+ #object[java.io.File 0x3e9f3bf4 "./.git/branches"]
+ #object[java.io.File 0x4e3c0837 "./.git/hooks"]
+ #object[java.io.File 0x5f741be0 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x56b79b21 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x11b05a98 "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x3fe38529 "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x40b7222e "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x2ab3d78a "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+(#object[java.io.File 0x3471bc65 "."]
+ #object[java.io.File 0x7cbefefb "./.git"]
+ #object[java.io.File 0x3e9f3bf4 "./.git/branches"]
+ #object[java.io.File 0x4e3c0837 "./.git/hooks"]
+ #object[java.io.File 0x5f741be0 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x56b79b21 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x11b05a98 "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x3fe38529 "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x40b7222e "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x2ab3d78a "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? (#object[java.io.File 0x3471bc65 "."]
+ #object[java.io.File 0x7cbefefb "./.git"]
+ #object[java.io.File 0x3e9f3bf4 "./.git/branches"]
+ #object[java.io.File 0x4e3c0837 "./.git/hooks"]
+ #object[java.io.File 0x5f741be0 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x56b79b21 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x11b05a98 "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x3fe38529 "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x40b7222e "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x2ab3d78a "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? clj꞉a3_Kao_Alex_40286533꞉> 
+Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:92:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Syntax error (ClassCastException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:92:23).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Syntax error (ClassCastException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Syntax error (ClassCastException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Syntax error (ClassCastException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:92:23).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? (#object[java.io.File 0x2a621266 "."]
+ #object[java.io.File 0x6ee9e117 "./.git"]
+ #object[java.io.File 0x4c2d66d1 "./.git/branches"]
+ #object[java.io.File 0x3007bd34 "./.git/hooks"]
+ #object[java.io.File 0x28ed50b3 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x146e9ae9 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x33d27d5b "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x3eb18808 "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x7c9b3fa5 "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x1cc24b0d "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+(#object[java.io.File 0x2a621266 "."]
+ #object[java.io.File 0x6ee9e117 "./.git"]
+ #object[java.io.File 0x4c2d66d1 "./.git/branches"]
+ #object[java.io.File 0x3007bd34 "./.git/hooks"]
+ #object[java.io.File 0x28ed50b3 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x146e9ae9 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x33d27d5b "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x3eb18808 "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x7c9b3fa5 "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x1cc24b0d "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; null
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Syntax error compiling def at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:24:1).
+; Too many arguments to def
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/defn at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:24:1).
+; file-seq - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+; (file-seq f) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Invalid Option, please try again
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? (#object[java.io.File 0x3134f7aa "."]
+ #object[java.io.File 0x56dc19d3 "./.git"]
+ #object[java.io.File 0x60bf1b9d "./.git/branches"]
+ #object[java.io.File 0x6a304fd4 "./.git/hooks"]
+ #object[java.io.File 0xfff53a2 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x784a82d0 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x60311db7 "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x817b08a "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x7d009069 "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x5170c11b "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+(#object[java.io.File 0x3134f7aa "."]
+ #object[java.io.File 0x56dc19d3 "./.git"]
+ #object[java.io.File 0x60bf1b9d "./.git/branches"]
+ #object[java.io.File 0x6a304fd4 "./.git/hooks"]
+ #object[java.io.File 0xfff53a2 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x784a82d0 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x60311db7 "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x817b08a "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x7d009069 "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x5170c11b "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? (#object[java.io.File 0x3134f7aa "."]
+ #object[java.io.File 0x56dc19d3 "./.git"]
+ #object[java.io.File 0x60bf1b9d "./.git/branches"]
+ #object[java.io.File 0x6a304fd4 "./.git/hooks"]
+ #object[java.io.File 0xfff53a2 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x784a82d0 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x60311db7 "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x817b08a "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x7d009069 "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x5170c11b "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+(#object[java.io.File 0x3134f7aa "."]
+ #object[java.io.File 0x56dc19d3 "./.git"]
+ #object[java.io.File 0x60bf1b9d "./.git/branches"]
+ #object[java.io.File 0x6a304fd4 "./.git/hooks"]
+ #object[java.io.File 0xfff53a2 "./.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x784a82d0 "./.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x60311db7 "./.git/hooks/post-update.sample"]
+ #object[java.io.File 0x817b08a "./.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x7d009069 "./.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x5170c11b "./.git/hooks/pre-merge-commit.sample"])
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; null
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+("."
+ ".git"
+ "branches"
+ "hooks"
+ "applypatch-msg.sample"
+ "commit-msg.sample"
+ "post-update.sample"
+ "pre-applypatch.sample"
+ "pre-commit.sample"
+ "pre-merge-commit.sample"
+ "pre-push.sample"
+ "pre-receive.sample"
+ "push-to-checkout.sample"
+ "sendemail-validate.sample"
+ "update.sample"
+ "fsmonitor-watchman.sample"
+ "pre-rebase.sample"
+ "prepare-commit-msg.sample"
+ "info"
+ "exclude"
+ "description"
+ "refs"
+ "heads"
+ "master"
+ "tags"
+ "remotes"
+ "origin"
+ "HEAD"
+ "objects"
+ "pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.rev"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.idx"
+ "info"
+ "packed-refs"
+ "logs"
+ "refs"
+ "remotes"
+ "origin"
+ "HEAD"
+ "heads"
+ "master"
+ "HEAD"
+ "HEAD"
+ "config"
+ "index"
+ ".circleci"
+ "config.yml"
+ "deploy"
+ "deploy_release.clj"
+ ".clj-kondo"
+ "config.edn"
+ "hooks"
+ "core.clj"
+ ".dir-locals.el"
+ ".gitattributes"
+ ".github"
+ "CONTRIBUTING.md"
+ "ISSUE_TEMPLATE.md"
+ "PULL_REQUEST_TEMPLATE.md"
+ ".gitignore"
+ "CHANGELOG.md"
+ "Makefile"
+ "README.md"
+ "bin"
+ "ci_detect_timeout"
+ "doc"
+ "antora.yml"
+ "modules"
+ "ROOT"
+ "nav.adoc"
+ "pages"
+ "about"
+ "changelog.adoc"
+ "history.adoc"
+ "license.adoc"
+ "compatibility.adoc"
+ "faq.adoc"
+ "hacking.adoc"
+ "index.adoc"
+ "internals.adoc"
+ "nrepl-api"
+ "ops.adoc"
+ "supplied_middleware.adoc"
+ "release_policy.adoc"
+ "usage.adoc"
+ "eastwood.clj"
+ "maint"
+ "cider"
+ "nrepl"
+ "impl"
+ "docs.clj"
+ "project.clj"
+ "resources"
+ "cider"
+ "nrepl"
+ "content-types.edn"
+ "version.edn"
+ "src"
+ "cider"
+ "nrepl.clj"
+ "nrepl"
+ "middleware.clj"
+ "middleware"
+ "apropos.clj"
+ "classpath.clj"
+ "clojuredocs.clj"
+ "complete.clj"
+ "content_type.clj"
+ "debug.clj"
+ "enlighten.clj"
+ "format.clj"
+ "info.clj"
+ "inspect.clj"
+ "log.clj"
+ "macroexpand.clj"
+ "ns.clj"
+ "out.clj"
+ "profile.clj"
+ "refresh.clj"
+ "resource.clj"
+ "slurp.clj"
+ "spec.clj"
+ "stacktrace.clj"
+ "test.clj"
+ "test"
+ "extensions.clj"
+ "trace.clj"
+ "track_state.clj"
+ "undef.clj"
+ "util.clj"
+ "util"
+ "cljs.clj"
+ "coerce.clj"
+ "error_handling.clj"
+ "instrument.clj"
+ "meta.clj"
+ "nrepl.clj"
+ "version.clj"
+ "xref.clj"
+ "pprint.clj"
+ "print_method.clj"
+ "version.clj"
+ "tasks.clj"
+ "cider_nrepl"
+ "plugin.clj"
+ "data_readers.clj"
+ "test"
+ "clj"
+ "cider"
+ "nrepl"
+ "middleware"
+ "apropos_test.clj"
+ "classpath_test.clj"
+ "clojuredocs_test.clj"
+ "complete_test.clj"
+ "content_type_test.clj"
+ "debug_integration_test.clj"
+ "debug_test.clj"
+ "format_test.clj"
+ "info_test.clj"
+ "inspect_test.clj"
+ "log_test.clj"
+ "macroexpand_test.clj"
+ "ns_test.clj"
+ "out_test.clj"
+ "profile_test.clj"
+ "refresh_test.clj"
+ "resource_test.clj"
+ "slurp_test.clj"
+ "spec_test.clj"
+ "stacktrace_test.clj"
+ "test"
+ "extensions_test.clj"
+ "test_filter_tests.clj"
+ "test_test.clj"
+ "trace_test.clj"
+ "track_state_test.clj"
+ "undef_test.clj"
+ "util"
+ "error_handling_test.clj"
+ "instrument_test.clj"
+ "meta_test.clj"
+ "version_test.clj"
+ "xref_test.clj"
+ "plugin_test.clj"
+ "print_method_test.clj"
+ "version_test.clj"
+ "nrepl_test.clj"
+ "cljs"
+ "cider"
+ "nrepl"
+ "middleware"
+ "cljs_complete_test.clj"
+ "cljs_info_test.clj"
+ "cljs_inspect_test.clj"
+ "cljs_macroexpand_test.clj"
+ "cljs_ns_test.clj"
+ "cljs_stacktrace_test.clj"
+ "piggieback_test.clj"
+ "common"
+ "cider"
+ "nrepl"
+ "test_session.clj"
+ "test_transport.clj"
+ "test_ns"
+ "first_test_ns.clj"
+ "second_test_ns.clj"
+ "third_test_ns.clj"
+ "cider_nrepl"
+ "plugin_test.clj"
+ "java"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.java"
+ "TestClass.java"
+ "YetAnotherTest.java"
+ "resources"
+ "cider"
+ "nrepl"
+ "clojuredocs"
+ "export.edn"
+ "middleware"
+ "test_with_throwing_fixtures.clj"
+ "failing_test_ns.clj"
+ "failing_test_ns_2.clj"
+ "logback-test.xml"
+ "logging.properties"
+ "sum-types-are-cool.jpg"
+ "test.txt"
+ "unknown.unknown"
+ "smoketest"
+ ".gitignore"
+ "project.clj"
+ "src"
+ "smoketest"
+ "core.clj"
+ "spec"
+ "cider"
+ "nrepl"
+ "middleware"
+ "info_spec_test.clj"
+ "src"
+ "cider"
+ "nrepl"
+ "middleware"
+ "debug_integration_test"
+ "fn.clj"
+ "tools-deps-testing"
+ "deps.edn"
+ "example.clj"
+ "macroexpand_tools_deps_test.clj"
+ ".enrich-classpath-lein-repl"
+ "target"
+ "stale"
+ "leiningen.core.classpath.extract-native-dependencies"
+ "classes"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.class"
+ "TestClass.class"
+ "YetAnotherTest.class"
+ ".nrepl-port")
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 

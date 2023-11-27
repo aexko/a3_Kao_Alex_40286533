@@ -1,9 +1,7 @@
-(ns menu_only
-  (:require [clojure.string :as str])
-  (:require [clojure.java.io :as io])
-  (:require [clojure.pprint :as pprint])
-  )
-  
+(ns a3_Kao_Alex_40286533
+  (:require [clojure.pprint :as clojure.pprint]
+            [clojure.string :as str]
+            [clojure.java.io :as io]))
   ; this is where you would also include/require the compress module
 
 
@@ -17,31 +15,33 @@
   (println "3. Compress a file")
   (println "4. Uncompress a file")
   (println "5. Exit")
-  (do 
-    (print "\nEnter an option? ") 
-    (flush) 
+  (do
+    (print "\nEnter an option? ")
+    (flush)
     (read-line)))
 
-; file-seq can be used to get a list of all files in the current folder
-(def f (clojure.java.io/file "."))
-
+(def f(io/file "."))
 (def fs (file-seq f))
-(first fs)
+
 
 ; Display all files in the current folder
 (defn option1
-  []
-(clojure.pprint/pprint (take 10 fs)))    
-    
-    
+  [] 
+  ; print the list of files in a format that is easy to read
+  (clojure.pprint/pprint (map #(.getName %) fs))
+
+  (println "use file-seq to get and print a list of all files in the current folder"))
+
+
+
 ; Read and display the file contents (if the file exists). Java's File class can be used to 
 ; check for existence first. 
 (defn option2
   []
-  (print "\nPlease enter a file name => ") 
+  (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
-     (println "now read" file_name "with slurp and display the contents")))
+    (println "now read" file_name "with slurp and display the contents")))
 
 
 
@@ -49,35 +49,35 @@
 ; that calls your compression function
 (defn option3
   [] ;parm(s) can be provided here, if needed
-  (print "\nPlease enter a file name => ") 
+  (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
-     (println "now compress" file_name "with with the functions(s) you provide in compress.clj")))
+    (println "now compress" file_name "with with the functions(s) you provide in compress.clj")))
 
 
 ; Decompress the (valid) file provided by the user. You will replace the println expression with code 
 ; that calls your decompression function
 (defn option4
   [] ;parm(s) can be provided here, if needed
-  (print "\nPlease enter a file name => ") 
+  (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
-     (println "now decompress" file_name "with with the functions(s) you provide in compress.clj")))
+    (println "now decompress" file_name "with with the functions(s) you provide in compress.clj")))
 
 
 ; If the menu selection is valid, call the relevant function to 
 ; process the selection
 (defn processOption
   [option] ; other parm(s) can be provided here, if needed
-  (if( = option "1")
-     (option1)
-     (if( = option "2")
-        (option2)
-        (if( = option "3")
-           (option3)  ; other args(s) can be passed here, if needed
-           (if( = option "4")
-              (option4)   ; other args(s) can be passed here, if needed
-              (println "Invalid Option, please try again"))))))
+  (if (= option "1")
+    (option1)
+    (if (= option "2")
+      (option2)
+      (if (= option "3")
+        (option3)  ; other args(s) can be passed here, if needed
+        (if (= option "4")
+          (option4)   ; other args(s) can be passed here, if needed
+          (println "Invalid Option, please try again"))))))
 
 
 ; Display the menu and get a menu item selection. Process the
@@ -87,9 +87,9 @@
   (let [option (str/trim (showMenu))]
     (if (= option "5")
       (println "\nGood Bye\n")
-      (do 
-         (processOption option)
-         (recur )))))   ; other args(s) can be passed here, if needed
+      (do
+        (processOption option)
+        (recur)))))   ; other args(s) can be passed here, if needed
 
 
 
