@@ -20,17 +20,16 @@
     (flush)
     (read-line)))
 
+; Get the list of files in the current folder
 (def f(io/file "."))
 (def fs (file-seq f))
-
 
 ; Display all files in the current folder
 (defn option1
   [] 
   ; print the list of files in a format that is easy to read
-  (clojure.pprint/pprint (map #(.getName %) fs))
+  (clojure.pprint/pprint (map #(.getName %) fs)))
 
-  (println "use file-seq to get and print a list of all files in the current folder"))
 
 
 
@@ -41,7 +40,11 @@
   (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
-    (println "now read" file_name "with slurp and display the contents")))
+    (println "now read" file_name "with slurp and display the contents")
+    (with-open [rdr (io/reader "/home/aexkxo/Git/a3_Kao_Alex_40286533/t1.txt")]
+      (doseq [line (line-seq rdr)]
+        (println line)))
+    ))
 
 
 

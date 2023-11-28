@@ -1151,4 +1151,727 @@ use file-seq to get and print a list of all files in the current folder
 4. Uncompress a file
 5. Exit
 
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+("."
+ ".git"
+ "branches"
+ "hooks"
+ "applypatch-msg.sample"
+ "commit-msg.sample"
+ "post-update.sample"
+ "pre-applypatch.sample"
+ "pre-commit.sample"
+ "pre-merge-commit.sample"
+ "pre-push.sample"
+ "pre-receive.sample"
+ "push-to-checkout.sample"
+ "sendemail-validate.sample"
+ "update.sample"
+ "fsmonitor-watchman.sample"
+ "pre-rebase.sample"
+ "prepare-commit-msg.sample"
+ "info"
+ "exclude"
+ "description"
+ "refs"
+ "heads"
+ "master"
+ "tags"
+ "remotes"
+ "origin"
+ "HEAD"
+ "objects"
+ "pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.rev"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.idx"
+ "info"
+ "packed-refs"
+ "logs"
+ "refs"
+ "remotes"
+ "origin"
+ "HEAD"
+ "heads"
+ "master"
+ "HEAD"
+ "HEAD"
+ "config"
+ "index"
+ ".circleci"
+ "config.yml"
+ "deploy"
+ "deploy_release.clj"
+ ".clj-kondo"
+ "config.edn"
+ "hooks"
+ "core.clj"
+ ".dir-locals.el"
+ ".gitattributes"
+ ".github"
+ "CONTRIBUTING.md"
+ "ISSUE_TEMPLATE.md"
+ "PULL_REQUEST_TEMPLATE.md"
+ ".gitignore"
+ "CHANGELOG.md"
+ "Makefile"
+ "README.md"
+ "bin"
+ "ci_detect_timeout"
+ "doc"
+ "antora.yml"
+ "modules"
+ "ROOT"
+ "nav.adoc"
+ "pages"
+ "about"
+ "changelog.adoc"
+ "history.adoc"
+ "license.adoc"
+ "compatibility.adoc"
+ "faq.adoc"
+ "hacking.adoc"
+ "index.adoc"
+ "internals.adoc"
+ "nrepl-api"
+ "ops.adoc"
+ "supplied_middleware.adoc"
+ "release_policy.adoc"
+ "usage.adoc"
+ "eastwood.clj"
+ "maint"
+ "cider"
+ "nrepl"
+ "impl"
+ "docs.clj"
+ "project.clj"
+ "resources"
+ "cider"
+ "nrepl"
+ "content-types.edn"
+ "version.edn"
+ "src"
+ "cider"
+ "nrepl.clj"
+ "nrepl"
+ "middleware.clj"
+ "middleware"
+ "apropos.clj"
+ "classpath.clj"
+ "clojuredocs.clj"
+ "complete.clj"
+ "content_type.clj"
+ "debug.clj"
+ "enlighten.clj"
+ "format.clj"
+ "info.clj"
+ "inspect.clj"
+ "log.clj"
+ "macroexpand.clj"
+ "ns.clj"
+ "out.clj"
+ "profile.clj"
+ "refresh.clj"
+ "resource.clj"
+ "slurp.clj"
+ "spec.clj"
+ "stacktrace.clj"
+ "test.clj"
+ "test"
+ "extensions.clj"
+ "trace.clj"
+ "track_state.clj"
+ "undef.clj"
+ "util.clj"
+ "util"
+ "cljs.clj"
+ "coerce.clj"
+ "error_handling.clj"
+ "instrument.clj"
+ "meta.clj"
+ "nrepl.clj"
+ "version.clj"
+ "xref.clj"
+ "pprint.clj"
+ "print_method.clj"
+ "version.clj"
+ "tasks.clj"
+ "cider_nrepl"
+ "plugin.clj"
+ "data_readers.clj"
+ "test"
+ "clj"
+ "cider"
+ "nrepl"
+ "middleware"
+ "apropos_test.clj"
+ "classpath_test.clj"
+ "clojuredocs_test.clj"
+ "complete_test.clj"
+ "content_type_test.clj"
+ "debug_integration_test.clj"
+ "debug_test.clj"
+ "format_test.clj"
+ "info_test.clj"
+ "inspect_test.clj"
+ "log_test.clj"
+ "macroexpand_test.clj"
+ "ns_test.clj"
+ "out_test.clj"
+ "profile_test.clj"
+ "refresh_test.clj"
+ "resource_test.clj"
+ "slurp_test.clj"
+ "spec_test.clj"
+ "stacktrace_test.clj"
+ "test"
+ "extensions_test.clj"
+ "test_filter_tests.clj"
+ "test_test.clj"
+ "trace_test.clj"
+ "track_state_test.clj"
+ "undef_test.clj"
+ "util"
+ "error_handling_test.clj"
+ "instrument_test.clj"
+ "meta_test.clj"
+ "version_test.clj"
+ "xref_test.clj"
+ "plugin_test.clj"
+ "print_method_test.clj"
+ "version_test.clj"
+ "nrepl_test.clj"
+ "cljs"
+ "cider"
+ "nrepl"
+ "middleware"
+ "cljs_complete_test.clj"
+ "cljs_info_test.clj"
+ "cljs_inspect_test.clj"
+ "cljs_macroexpand_test.clj"
+ "cljs_ns_test.clj"
+ "cljs_stacktrace_test.clj"
+ "piggieback_test.clj"
+ "common"
+ "cider"
+ "nrepl"
+ "test_session.clj"
+ "test_transport.clj"
+ "test_ns"
+ "first_test_ns.clj"
+ "second_test_ns.clj"
+ "third_test_ns.clj"
+ "cider_nrepl"
+ "plugin_test.clj"
+ "java"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.java"
+ "TestClass.java"
+ "YetAnotherTest.java"
+ "resources"
+ "cider"
+ "nrepl"
+ "clojuredocs"
+ "export.edn"
+ "middleware"
+ "test_with_throwing_fixtures.clj"
+ "failing_test_ns.clj"
+ "failing_test_ns_2.clj"
+ "logback-test.xml"
+ "logging.properties"
+ "sum-types-are-cool.jpg"
+ "test.txt"
+ "unknown.unknown"
+ "smoketest"
+ ".gitignore"
+ "project.clj"
+ "src"
+ "smoketest"
+ "core.clj"
+ "spec"
+ "cider"
+ "nrepl"
+ "middleware"
+ "info_spec_test.clj"
+ "src"
+ "cider"
+ "nrepl"
+ "middleware"
+ "debug_integration_test"
+ "fn.clj"
+ "tools-deps-testing"
+ "deps.edn"
+ "example.clj"
+ "macroexpand_tools_deps_test.clj"
+ ".enrich-classpath-lein-repl"
+ "target"
+ "stale"
+ "leiningen.core.classpath.extract-native-dependencies"
+ "classes"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.class"
+ "TestClass.class"
+ "YetAnotherTest.class"
+ ".nrepl-port")
+use file-seq to get and print a list of all files in the current folder
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+Please enter a file name => now read t1.txt with slurp and display the contents
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:102:1).
+; EOF while reading, starting at line 36
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:43:3).
+; Unable to resolve symbol: file_name in this context
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:102:1).
+; EOF while reading, starting at line 36
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:102:1).
+; EOF while reading, starting at line 36
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:102:1).
+; EOF while reading, starting at line 36
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read t1.txt with slurp and display the contents
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:92:23).
+; t1.txt (No such file or directory)
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read t1.txt with slurp and display the contents
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; t1.txt (No such file or directory)
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read smt with slurp and display the contents
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; t1.txt (No such file or directory)
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read 2 with slurp and display the contents
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:91:23).
+; ./t1.txt (No such file or directory)
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.pprint :as clojure.pprint] [clojure.string :as str] [clojure.java.io :as io] [clojure.java.io/reader as reader])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.pprint :as clojure.pprint] [clojure.string :as str] [clojure.java.io :as io] [clojure.java.io/slurp as slurp])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.pprint :as clojure.pprint] [clojure.string :as str] [clojure.java.io :as io] [clojure.java.io/slurp as slurp])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; Could not locate clojure/slurp/as__init.class, clojure/slurp/as.clj or clojure/slurp/as.cljc on classpath.
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.pprint :as clojure.pprint] [clojure.string :as str] [clojure.java.io :as io] [clojure.java.io/reader])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.pprint :as clojure.pprint] [clojure.string :as str] [clojure.java.io :as io] [clojure.java.io/reader])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.pprint :as pprint] [clojure.string :as str] [clojure.java.io :as io] [clojure.java.io/reader])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:92:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Syntax error (ArityException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:92:23).
+; Wrong number of args (0) passed to: clojure.pprint/pprint
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Syntax error (ArityException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:92:23).
+; Wrong number of args (0) passed to: clojure.pprint/pprint
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.pprint :as pprint] [clojure.string :as str] [clojure.java.io :as io] [clojure.java.io/reader])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.pprint :as pprint] [clojure.string :as str] [clojure.java.io :as io] [clojure.java.io/reader])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.java.io.pprint :as pprint] [clojure.string :as str] [clojure.java.io :as io] [clojure.java.io/reader])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.java.io/pprint :as pprint] [clojure.string :as str] [clojure.java.io :as io] [clojure.java.io/reader])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; Could not locate clojure/slurp/as__init.class, clojure/slurp/as.clj or clojure/slurp/as.cljc on classpath.
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:92:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:42:5).
+; No such var: io/slurp
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+Please enter a file name => now read t1.txt with slurp and display the contents
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:94:23).
+; /tmp/foo.txt (No such file or directory)
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:54:19).
+; Unsupported character: \nPlease
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:54:19).
+; Unsupported character: \nPlease
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:54:19).
+; Unsupported character: \nPlease
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:54:19).
+; Unsupported character: \nPlease
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read t1.txt with slurp and display the contents
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:94:23).
+; t1.txt (No such file or directory)
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read t1.txt with slurp and display the contents
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:92:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read t1.txt with slurp and display the contents
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:95:23).
+; t1.txt (No such file or directory)
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read 1 with slurp and display the contents
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:95:23).
+; ./t1.txt (No such file or directory)
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/option2
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/option2
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:0:0).
+; Unable to resolve symbol: file_name in this context
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/option2
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/option2
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:44:21).
+; Unable to resolve symbol: file_name in this context
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read 1 with slurp and display the contents
+Alex is cool
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
 Enter an option? 
