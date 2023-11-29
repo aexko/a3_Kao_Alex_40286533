@@ -21,16 +21,17 @@
     (read-line)))
 
 ; Get the list of files in the current folder
-(def f(io/file "."))
+(def f(io/file (System/getProperty "user.dir")
+))
 (def fs (file-seq f))
 
 ; Display all files in the current folder
 (defn option1
   [] 
   ; print the list of files in a format that is easy to read
+  ;; (clojure.pprint/pprint (map #(.getName %) fs)))
   (clojure.pprint/pprint (map #(.getName %) fs)))
-
-
+  
 
 
 ; Read and display the file contents (if the file exists). Java's File class can be used to 
@@ -41,10 +42,17 @@
   (flush)
   (let [file_name (read-line)]
     (println "now read" file_name "with slurp and display the contents")
-    (with-open [rdr (io/reader "/home/aexkxo/Git/a3_Kao_Alex_40286533/t1.txt")]
-      (doseq [line (line-seq rdr)]
-        (println line)))
+    ; checks if the file exists
+    (if (.exists (io/file file_name))
+      (println "file exists")
+      (println "file does not exist"))
+    ; slurp the file
+    (println (slurp file_name))
+    ; read the file
     ))
+    ;; (with-open [rdr (io/reader "/home/aexkxo/Git/a3_Kao_Alex_40286533/t1.txt")]
+    ;;   (doseq [line (line-seq rdr)]
+    ;;     (println line))))
 
 
 
@@ -95,7 +103,15 @@
         (recur)))))   ; other args(s) can be passed here, if needed
 
 
-
+(defn load_data
+  []
+  (println "load data here")
+  ; read the file
+  ; split the file into words
+  ; insert data in the map
+  ; return the map
+  
+  )
 
 ; ------------------------------
 ; Run the program. You might want to prepare the data required for the mapping operations

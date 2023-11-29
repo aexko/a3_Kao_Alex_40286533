@@ -2444,4 +2444,1681 @@ Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
 4. Uncompress a file
 5. Exit
 
+Enter an option? ; Evaluating file: a3_Kao_Alex_40286533.clj
+("."
+ ".git"
+ "branches"
+ "hooks"
+ "applypatch-msg.sample"
+ "commit-msg.sample"
+ "post-update.sample"
+ "pre-applypatch.sample"
+ "pre-commit.sample"
+ "pre-merge-commit.sample"
+ "pre-push.sample"
+ "pre-receive.sample"
+ "push-to-checkout.sample"
+ "sendemail-validate.sample"
+ "update.sample"
+ "fsmonitor-watchman.sample"
+ "pre-rebase.sample"
+ "prepare-commit-msg.sample"
+ "info"
+ "exclude"
+ "description"
+ "refs"
+ "heads"
+ "master"
+ "tags"
+ "remotes"
+ "origin"
+ "HEAD"
+ "objects"
+ "pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.rev"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.idx"
+ "info"
+ "packed-refs"
+ "logs"
+ "refs"
+ "remotes"
+ "origin"
+ "HEAD"
+ "heads"
+ "master"
+ "HEAD"
+ "HEAD"
+ "config"
+ "index"
+ ".circleci"
+ "config.yml"
+ "deploy"
+ "deploy_release.clj"
+ ".clj-kondo"
+ "config.edn"
+ "hooks"
+ "core.clj"
+ ".dir-locals.el"
+ ".gitattributes"
+ ".github"
+ "CONTRIBUTING.md"
+ "ISSUE_TEMPLATE.md"
+ "PULL_REQUEST_TEMPLATE.md"
+ ".gitignore"
+ "CHANGELOG.md"
+ "Makefile"
+ "README.md"
+ "bin"
+ "ci_detect_timeout"
+ "doc"
+ "antora.yml"
+ "modules"
+ "ROOT"
+ "nav.adoc"
+ "pages"
+ "about"
+ "changelog.adoc"
+ "history.adoc"
+ "license.adoc"
+ "compatibility.adoc"
+ "faq.adoc"
+ "hacking.adoc"
+ "index.adoc"
+ "internals.adoc"
+ "nrepl-api"
+ "ops.adoc"
+ "supplied_middleware.adoc"
+ "release_policy.adoc"
+ "usage.adoc"
+ "eastwood.clj"
+ "maint"
+ "cider"
+ "nrepl"
+ "impl"
+ "docs.clj"
+ "project.clj"
+ "resources"
+ "cider"
+ "nrepl"
+ "content-types.edn"
+ "version.edn"
+ "src"
+ "cider"
+ "nrepl.clj"
+ "nrepl"
+ "middleware.clj"
+ "middleware"
+ "apropos.clj"
+ "classpath.clj"
+ "clojuredocs.clj"
+ "complete.clj"
+ "content_type.clj"
+ "debug.clj"
+ "enlighten.clj"
+ "format.clj"
+ "info.clj"
+ "inspect.clj"
+ "log.clj"
+ "macroexpand.clj"
+ "ns.clj"
+ "out.clj"
+ "profile.clj"
+ "refresh.clj"
+ "resource.clj"
+ "slurp.clj"
+ "spec.clj"
+ "stacktrace.clj"
+ "test.clj"
+ "test"
+ "extensions.clj"
+ "trace.clj"
+ "track_state.clj"
+ "undef.clj"
+ "util.clj"
+ "util"
+ "cljs.clj"
+ "coerce.clj"
+ "error_handling.clj"
+ "instrument.clj"
+ "meta.clj"
+ "nrepl.clj"
+ "version.clj"
+ "xref.clj"
+ "pprint.clj"
+ "print_method.clj"
+ "version.clj"
+ "tasks.clj"
+ "cider_nrepl"
+ "plugin.clj"
+ "data_readers.clj"
+ "test"
+ "clj"
+ "cider"
+ "nrepl"
+ "middleware"
+ "apropos_test.clj"
+ "classpath_test.clj"
+ "clojuredocs_test.clj"
+ "complete_test.clj"
+ "content_type_test.clj"
+ "debug_integration_test.clj"
+ "debug_test.clj"
+ "format_test.clj"
+ "info_test.clj"
+ "inspect_test.clj"
+ "log_test.clj"
+ "macroexpand_test.clj"
+ "ns_test.clj"
+ "out_test.clj"
+ "profile_test.clj"
+ "refresh_test.clj"
+ "resource_test.clj"
+ "slurp_test.clj"
+ "spec_test.clj"
+ "stacktrace_test.clj"
+ "test"
+ "extensions_test.clj"
+ "test_filter_tests.clj"
+ "test_test.clj"
+ "trace_test.clj"
+ "track_state_test.clj"
+ "undef_test.clj"
+ "util"
+ "error_handling_test.clj"
+ "instrument_test.clj"
+ "meta_test.clj"
+ "version_test.clj"
+ "xref_test.clj"
+ "plugin_test.clj"
+ "print_method_test.clj"
+ "version_test.clj"
+ "nrepl_test.clj"
+ "cljs"
+ "cider"
+ "nrepl"
+ "middleware"
+ "cljs_complete_test.clj"
+ "cljs_info_test.clj"
+ "cljs_inspect_test.clj"
+ "cljs_macroexpand_test.clj"
+ "cljs_ns_test.clj"
+ "cljs_stacktrace_test.clj"
+ "piggieback_test.clj"
+ "common"
+ "cider"
+ "nrepl"
+ "test_session.clj"
+ "test_transport.clj"
+ "test_ns"
+ "first_test_ns.clj"
+ "second_test_ns.clj"
+ "third_test_ns.clj"
+ "cider_nrepl"
+ "plugin_test.clj"
+ "java"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.java"
+ "TestClass.java"
+ "YetAnotherTest.java"
+ "resources"
+ "cider"
+ "nrepl"
+ "clojuredocs"
+ "export.edn"
+ "middleware"
+ "test_with_throwing_fixtures.clj"
+ "failing_test_ns.clj"
+ "failing_test_ns_2.clj"
+ "logback-test.xml"
+ "logging.properties"
+ "sum-types-are-cool.jpg"
+ "test.txt"
+ "unknown.unknown"
+ "smoketest"
+ ".gitignore"
+ "project.clj"
+ "src"
+ "smoketest"
+ "core.clj"
+ "spec"
+ "cider"
+ "nrepl"
+ "middleware"
+ "info_spec_test.clj"
+ "src"
+ "cider"
+ "nrepl"
+ "middleware"
+ "debug_integration_test"
+ "fn.clj"
+ "tools-deps-testing"
+ "deps.edn"
+ "example.clj"
+ "macroexpand_tools_deps_test.clj"
+ ".enrich-classpath-lein-repl"
+ "target"
+ "stale"
+ "leiningen.core.classpath.extract-native-dependencies"
+ "classes"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.class"
+ "TestClass.class"
+ "YetAnotherTest.class"
+ ".nrepl-port")
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:95:23).
+; null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Execution error (NullPointerException) at java.io.StringReader/<init> (StringReader.java:51).
+; Cannot invoke "String.length()" because "s" is null
+; Syntax error macroexpanding clojure.core/ns at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:1:1).
+; ((:require [clojure.pprint :as clojure.pprint] [clojure.string :as str] [clojure.java.io :as io] [System/getProperty as System])) - failed: Extra input spec: :clojure.core.specs.alpha/ns-form
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class java.lang.NullPointerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ("."
+ ".git"
+ "branches"
+ "hooks"
+ "applypatch-msg.sample"
+ "commit-msg.sample"
+ "post-update.sample"
+ "pre-applypatch.sample"
+ "pre-commit.sample"
+ "pre-merge-commit.sample"
+ "pre-push.sample"
+ "pre-receive.sample"
+ "push-to-checkout.sample"
+ "sendemail-validate.sample"
+ "update.sample"
+ "fsmonitor-watchman.sample"
+ "pre-rebase.sample"
+ "prepare-commit-msg.sample"
+ "info"
+ "exclude"
+ "description"
+ "refs"
+ "heads"
+ "master"
+ "tags"
+ "remotes"
+ "origin"
+ "HEAD"
+ "objects"
+ "pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.rev"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.idx"
+ "info"
+ "packed-refs"
+ "logs"
+ "refs"
+ "remotes"
+ "origin"
+ "HEAD"
+ "heads"
+ "master"
+ "HEAD"
+ "HEAD"
+ "config"
+ "index"
+ ".circleci"
+ "config.yml"
+ "deploy"
+ "deploy_release.clj"
+ ".clj-kondo"
+ "config.edn"
+ "hooks"
+ "core.clj"
+ ".dir-locals.el"
+ ".gitattributes"
+ ".github"
+ "CONTRIBUTING.md"
+ "ISSUE_TEMPLATE.md"
+ "PULL_REQUEST_TEMPLATE.md"
+ ".gitignore"
+ "CHANGELOG.md"
+ "Makefile"
+ "README.md"
+ "bin"
+ "ci_detect_timeout"
+ "doc"
+ "antora.yml"
+ "modules"
+ "ROOT"
+ "nav.adoc"
+ "pages"
+ "about"
+ "changelog.adoc"
+ "history.adoc"
+ "license.adoc"
+ "compatibility.adoc"
+ "faq.adoc"
+ "hacking.adoc"
+ "index.adoc"
+ "internals.adoc"
+ "nrepl-api"
+ "ops.adoc"
+ "supplied_middleware.adoc"
+ "release_policy.adoc"
+ "usage.adoc"
+ "eastwood.clj"
+ "maint"
+ "cider"
+ "nrepl"
+ "impl"
+ "docs.clj"
+ "project.clj"
+ "resources"
+ "cider"
+ "nrepl"
+ "content-types.edn"
+ "version.edn"
+ "src"
+ "cider"
+ "nrepl.clj"
+ "nrepl"
+ "middleware.clj"
+ "middleware"
+ "apropos.clj"
+ "classpath.clj"
+ "clojuredocs.clj"
+ "complete.clj"
+ "content_type.clj"
+ "debug.clj"
+ "enlighten.clj"
+ "format.clj"
+ "info.clj"
+ "inspect.clj"
+ "log.clj"
+ "macroexpand.clj"
+ "ns.clj"
+ "out.clj"
+ "profile.clj"
+ "refresh.clj"
+ "resource.clj"
+ "slurp.clj"
+ "spec.clj"
+ "stacktrace.clj"
+ "test.clj"
+ "test"
+ "extensions.clj"
+ "trace.clj"
+ "track_state.clj"
+ "undef.clj"
+ "util.clj"
+ "util"
+ "cljs.clj"
+ "coerce.clj"
+ "error_handling.clj"
+ "instrument.clj"
+ "meta.clj"
+ "nrepl.clj"
+ "version.clj"
+ "xref.clj"
+ "pprint.clj"
+ "print_method.clj"
+ "version.clj"
+ "tasks.clj"
+ "cider_nrepl"
+ "plugin.clj"
+ "data_readers.clj"
+ "test"
+ "clj"
+ "cider"
+ "nrepl"
+ "middleware"
+ "apropos_test.clj"
+ "classpath_test.clj"
+ "clojuredocs_test.clj"
+ "complete_test.clj"
+ "content_type_test.clj"
+ "debug_integration_test.clj"
+ "debug_test.clj"
+ "format_test.clj"
+ "info_test.clj"
+ "inspect_test.clj"
+ "log_test.clj"
+ "macroexpand_test.clj"
+ "ns_test.clj"
+ "out_test.clj"
+ "profile_test.clj"
+ "refresh_test.clj"
+ "resource_test.clj"
+ "slurp_test.clj"
+ "spec_test.clj"
+ "stacktrace_test.clj"
+ "test"
+ "extensions_test.clj"
+ "test_filter_tests.clj"
+ "test_test.clj"
+ "trace_test.clj"
+ "track_state_test.clj"
+ "undef_test.clj"
+ "util"
+ "error_handling_test.clj"
+ "instrument_test.clj"
+ "meta_test.clj"
+ "version_test.clj"
+ "xref_test.clj"
+ "plugin_test.clj"
+ "print_method_test.clj"
+ "version_test.clj"
+ "nrepl_test.clj"
+ "cljs"
+ "cider"
+ "nrepl"
+ "middleware"
+ "cljs_complete_test.clj"
+ "cljs_info_test.clj"
+ "cljs_inspect_test.clj"
+ "cljs_macroexpand_test.clj"
+ "cljs_ns_test.clj"
+ "cljs_stacktrace_test.clj"
+ "piggieback_test.clj"
+ "common"
+ "cider"
+ "nrepl"
+ "test_session.clj"
+ "test_transport.clj"
+ "test_ns"
+ "first_test_ns.clj"
+ "second_test_ns.clj"
+ "third_test_ns.clj"
+ "cider_nrepl"
+ "plugin_test.clj"
+ "java"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.java"
+ "TestClass.java"
+ "YetAnotherTest.java"
+ "resources"
+ "cider"
+ "nrepl"
+ "clojuredocs"
+ "export.edn"
+ "middleware"
+ "test_with_throwing_fixtures.clj"
+ "failing_test_ns.clj"
+ "failing_test_ns_2.clj"
+ "logback-test.xml"
+ "logging.properties"
+ "sum-types-are-cool.jpg"
+ "test.txt"
+ "unknown.unknown"
+ "smoketest"
+ ".gitignore"
+ "project.clj"
+ "src"
+ "smoketest"
+ "core.clj"
+ "spec"
+ "cider"
+ "nrepl"
+ "middleware"
+ "info_spec_test.clj"
+ "src"
+ "cider"
+ "nrepl"
+ "middleware"
+ "debug_integration_test"
+ "fn.clj"
+ "tools-deps-testing"
+ "deps.edn"
+ "example.clj"
+ "macroexpand_tools_deps_test.clj"
+ ".enrich-classpath-lein-repl"
+ "target"
+ "stale"
+ "leiningen.core.classpath.extract-native-dependencies"
+ "classes"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.class"
+ "TestClass.class"
+ "YetAnotherTest.class"
+ ".nrepl-port")
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:95:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:97:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:97:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ("user.dir")
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ("user.dir")
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ("user.dir")
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:97:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:98:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ("cider-nrepl"
+ ".git"
+ "branches"
+ "hooks"
+ "applypatch-msg.sample"
+ "commit-msg.sample"
+ "post-update.sample"
+ "pre-applypatch.sample"
+ "pre-commit.sample"
+ "pre-merge-commit.sample"
+ "pre-push.sample"
+ "pre-receive.sample"
+ "push-to-checkout.sample"
+ "sendemail-validate.sample"
+ "update.sample"
+ "fsmonitor-watchman.sample"
+ "pre-rebase.sample"
+ "prepare-commit-msg.sample"
+ "info"
+ "exclude"
+ "description"
+ "refs"
+ "heads"
+ "master"
+ "tags"
+ "remotes"
+ "origin"
+ "HEAD"
+ "objects"
+ "pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.rev"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.idx"
+ "info"
+ "packed-refs"
+ "logs"
+ "refs"
+ "remotes"
+ "origin"
+ "HEAD"
+ "heads"
+ "master"
+ "HEAD"
+ "HEAD"
+ "config"
+ "index"
+ ".circleci"
+ "config.yml"
+ "deploy"
+ "deploy_release.clj"
+ ".clj-kondo"
+ "config.edn"
+ "hooks"
+ "core.clj"
+ ".dir-locals.el"
+ ".gitattributes"
+ ".github"
+ "CONTRIBUTING.md"
+ "ISSUE_TEMPLATE.md"
+ "PULL_REQUEST_TEMPLATE.md"
+ ".gitignore"
+ "CHANGELOG.md"
+ "Makefile"
+ "README.md"
+ "bin"
+ "ci_detect_timeout"
+ "doc"
+ "antora.yml"
+ "modules"
+ "ROOT"
+ "nav.adoc"
+ "pages"
+ "about"
+ "changelog.adoc"
+ "history.adoc"
+ "license.adoc"
+ "compatibility.adoc"
+ "faq.adoc"
+ "hacking.adoc"
+ "index.adoc"
+ "internals.adoc"
+ "nrepl-api"
+ "ops.adoc"
+ "supplied_middleware.adoc"
+ "release_policy.adoc"
+ "usage.adoc"
+ "eastwood.clj"
+ "maint"
+ "cider"
+ "nrepl"
+ "impl"
+ "docs.clj"
+ "project.clj"
+ "resources"
+ "cider"
+ "nrepl"
+ "content-types.edn"
+ "version.edn"
+ "src"
+ "cider"
+ "nrepl.clj"
+ "nrepl"
+ "middleware.clj"
+ "middleware"
+ "apropos.clj"
+ "classpath.clj"
+ "clojuredocs.clj"
+ "complete.clj"
+ "content_type.clj"
+ "debug.clj"
+ "enlighten.clj"
+ "format.clj"
+ "info.clj"
+ "inspect.clj"
+ "log.clj"
+ "macroexpand.clj"
+ "ns.clj"
+ "out.clj"
+ "profile.clj"
+ "refresh.clj"
+ "resource.clj"
+ "slurp.clj"
+ "spec.clj"
+ "stacktrace.clj"
+ "test.clj"
+ "test"
+ "extensions.clj"
+ "trace.clj"
+ "track_state.clj"
+ "undef.clj"
+ "util.clj"
+ "util"
+ "cljs.clj"
+ "coerce.clj"
+ "error_handling.clj"
+ "instrument.clj"
+ "meta.clj"
+ "nrepl.clj"
+ "version.clj"
+ "xref.clj"
+ "pprint.clj"
+ "print_method.clj"
+ "version.clj"
+ "tasks.clj"
+ "cider_nrepl"
+ "plugin.clj"
+ "data_readers.clj"
+ "test"
+ "clj"
+ "cider"
+ "nrepl"
+ "middleware"
+ "apropos_test.clj"
+ "classpath_test.clj"
+ "clojuredocs_test.clj"
+ "complete_test.clj"
+ "content_type_test.clj"
+ "debug_integration_test.clj"
+ "debug_test.clj"
+ "format_test.clj"
+ "info_test.clj"
+ "inspect_test.clj"
+ "log_test.clj"
+ "macroexpand_test.clj"
+ "ns_test.clj"
+ "out_test.clj"
+ "profile_test.clj"
+ "refresh_test.clj"
+ "resource_test.clj"
+ "slurp_test.clj"
+ "spec_test.clj"
+ "stacktrace_test.clj"
+ "test"
+ "extensions_test.clj"
+ "test_filter_tests.clj"
+ "test_test.clj"
+ "trace_test.clj"
+ "track_state_test.clj"
+ "undef_test.clj"
+ "util"
+ "error_handling_test.clj"
+ "instrument_test.clj"
+ "meta_test.clj"
+ "version_test.clj"
+ "xref_test.clj"
+ "plugin_test.clj"
+ "print_method_test.clj"
+ "version_test.clj"
+ "nrepl_test.clj"
+ "cljs"
+ "cider"
+ "nrepl"
+ "middleware"
+ "cljs_complete_test.clj"
+ "cljs_info_test.clj"
+ "cljs_inspect_test.clj"
+ "cljs_macroexpand_test.clj"
+ "cljs_ns_test.clj"
+ "cljs_stacktrace_test.clj"
+ "piggieback_test.clj"
+ "common"
+ "cider"
+ "nrepl"
+ "test_session.clj"
+ "test_transport.clj"
+ "test_ns"
+ "first_test_ns.clj"
+ "second_test_ns.clj"
+ "third_test_ns.clj"
+ "cider_nrepl"
+ "plugin_test.clj"
+ "java"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.java"
+ "TestClass.java"
+ "YetAnotherTest.java"
+ "resources"
+ "cider"
+ "nrepl"
+ "clojuredocs"
+ "export.edn"
+ "middleware"
+ "test_with_throwing_fixtures.clj"
+ "failing_test_ns.clj"
+ "failing_test_ns_2.clj"
+ "logback-test.xml"
+ "logging.properties"
+ "sum-types-are-cool.jpg"
+ "test.txt"
+ "unknown.unknown"
+ "smoketest"
+ ".gitignore"
+ "project.clj"
+ "src"
+ "smoketest"
+ "core.clj"
+ "spec"
+ "cider"
+ "nrepl"
+ "middleware"
+ "info_spec_test.clj"
+ "src"
+ "cider"
+ "nrepl"
+ "middleware"
+ "debug_integration_test"
+ "fn.clj"
+ "tools-deps-testing"
+ "deps.edn"
+ "example.clj"
+ "macroexpand_tools_deps_test.clj"
+ ".enrich-classpath-lein-repl"
+ "target"
+ "stale"
+ "leiningen.core.classpath.extract-native-dependencies"
+ "classes"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.class"
+ "TestClass.class"
+ "YetAnotherTest.class"
+ ".nrepl-port")
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:96:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:106:1).
+; EOF while reading, starting at line 29
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:33:33).
+; Unmatched delimiter: )
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ; Syntax error (ClassCastException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:96:23).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? (#object[java.io.File 0x860a650 "/home/aexkxo/Git/cider-nrepl"]
+ #object[java.io.File 0xf697fc8 "/home/aexkxo/Git/cider-nrepl/.git"]
+ #object[java.io.File 0x2ee57da6 "/home/aexkxo/Git/cider-nrepl/.git/branches"]
+ #object[java.io.File 0x1a03b24c "/home/aexkxo/Git/cider-nrepl/.git/hooks"]
+ #object[java.io.File 0x58446def "/home/aexkxo/Git/cider-nrepl/.git/hooks/applypatch-msg.sample"]
+ #object[java.io.File 0x1c17de10 "/home/aexkxo/Git/cider-nrepl/.git/hooks/commit-msg.sample"]
+ #object[java.io.File 0x199a9879 "/home/aexkxo/Git/cider-nrepl/.git/hooks/post-update.sample"]
+ #object[java.io.File 0x1e8cc8d4 "/home/aexkxo/Git/cider-nrepl/.git/hooks/pre-applypatch.sample"]
+ #object[java.io.File 0x655cf5ff "/home/aexkxo/Git/cider-nrepl/.git/hooks/pre-commit.sample"]
+ #object[java.io.File 0x4719501a "/home/aexkxo/Git/cider-nrepl/.git/hooks/pre-merge-commit.sample"]
+ #object[java.io.File 0xa0d51d0 "/home/aexkxo/Git/cider-nrepl/.git/hooks/pre-push.sample"]
+ #object[java.io.File 0x72bff22d "/home/aexkxo/Git/cider-nrepl/.git/hooks/pre-receive.sample"]
+ #object[java.io.File 0x704e0288 "/home/aexkxo/Git/cider-nrepl/.git/hooks/push-to-checkout.sample"]
+ #object[java.io.File 0x7d5a151b "/home/aexkxo/Git/cider-nrepl/.git/hooks/sendemail-validate.sample"]
+ #object[java.io.File 0x1db958b1 "/home/aexkxo/Git/cider-nrepl/.git/hooks/update.sample"]
+ #object[java.io.File 0x101affb1 "/home/aexkxo/Git/cider-nrepl/.git/hooks/fsmonitor-watchman.sample"]
+ #object[java.io.File 0x1040e578 "/home/aexkxo/Git/cider-nrepl/.git/hooks/pre-rebase.sample"]
+ #object[java.io.File 0x3d9fd8a6 "/home/aexkxo/Git/cider-nrepl/.git/hooks/prepare-commit-msg.sample"]
+ #object[java.io.File 0x6ab47374 "/home/aexkxo/Git/cider-nrepl/.git/info"]
+ #object[java.io.File 0x2d94eee4 "/home/aexkxo/Git/cider-nrepl/.git/info/exclude"]
+ #object[java.io.File 0x3ae8b50b "/home/aexkxo/Git/cider-nrepl/.git/description"]
+ #object[java.io.File 0x79711018 "/home/aexkxo/Git/cider-nrepl/.git/refs"]
+ #object[java.io.File 0x3097e391 "/home/aexkxo/Git/cider-nrepl/.git/refs/heads"]
+ #object[java.io.File 0x3a7ed8a9 "/home/aexkxo/Git/cider-nrepl/.git/refs/heads/master"]
+ #object[java.io.File 0x45c16200 "/home/aexkxo/Git/cider-nrepl/.git/refs/tags"]
+ #object[java.io.File 0x34c14b70 "/home/aexkxo/Git/cider-nrepl/.git/refs/remotes"]
+ #object[java.io.File 0x3b45bd12 "/home/aexkxo/Git/cider-nrepl/.git/refs/remotes/origin"]
+ #object[java.io.File 0x77b28143 "/home/aexkxo/Git/cider-nrepl/.git/refs/remotes/origin/HEAD"]
+ #object[java.io.File 0x392d2cd7 "/home/aexkxo/Git/cider-nrepl/.git/objects"]
+ #object[java.io.File 0x7096a49 "/home/aexkxo/Git/cider-nrepl/.git/objects/pack"]
+ #object[java.io.File 0x1132ea97 "/home/aexkxo/Git/cider-nrepl/.git/objects/pack/pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.pack"]
+ #object[java.io.File 0x72e9d96b "/home/aexkxo/Git/cider-nrepl/.git/objects/pack/pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.rev"]
+ #object[java.io.File 0x22721875 "/home/aexkxo/Git/cider-nrepl/.git/objects/pack/pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.idx"]
+ #object[java.io.File 0x6e656550 "/home/aexkxo/Git/cider-nrepl/.git/objects/info"]
+ #object[java.io.File 0x68055c59 "/home/aexkxo/Git/cider-nrepl/.git/packed-refs"]
+ #object[java.io.File 0x549bf2b3 "/home/aexkxo/Git/cider-nrepl/.git/logs"]
+ #object[java.io.File 0x6698e9e5 "/home/aexkxo/Git/cider-nrepl/.git/logs/refs"]
+ #object[java.io.File 0x23924f83 "/home/aexkxo/Git/cider-nrepl/.git/logs/refs/remotes"]
+ #object[java.io.File 0x6137383c "/home/aexkxo/Git/cider-nrepl/.git/logs/refs/remotes/origin"]
+ #object[java.io.File 0x6a3250c3 "/home/aexkxo/Git/cider-nrepl/.git/logs/refs/remotes/origin/HEAD"]
+ #object[java.io.File 0x4b444ba1 "/home/aexkxo/Git/cider-nrepl/.git/logs/refs/heads"]
+ #object[java.io.File 0x7a1beb1d "/home/aexkxo/Git/cider-nrepl/.git/logs/refs/heads/master"]
+ #object[java.io.File 0x2235caba "/home/aexkxo/Git/cider-nrepl/.git/logs/HEAD"]
+ #object[java.io.File 0x5a792277 "/home/aexkxo/Git/cider-nrepl/.git/HEAD"]
+ #object[java.io.File 0x338973da "/home/aexkxo/Git/cider-nrepl/.git/config"]
+ #object[java.io.File 0x166f25b5 "/home/aexkxo/Git/cider-nrepl/.git/index"]
+ #object[java.io.File 0x1a035dd8 "/home/aexkxo/Git/cider-nrepl/.circleci"]
+ #object[java.io.File 0x9faae75 "/home/aexkxo/Git/cider-nrepl/.circleci/config.yml"]
+ #object[java.io.File 0x71150b33 "/home/aexkxo/Git/cider-nrepl/.circleci/deploy"]
+ #object[java.io.File 0x1e38ca29 "/home/aexkxo/Git/cider-nrepl/.circleci/deploy/deploy_release.clj"]
+ #object[java.io.File 0x1ed5b9ab "/home/aexkxo/Git/cider-nrepl/.clj-kondo"]
+ #object[java.io.File 0x42003502 "/home/aexkxo/Git/cider-nrepl/.clj-kondo/config.edn"]
+ #object[java.io.File 0x1b95e2e2 "/home/aexkxo/Git/cider-nrepl/.clj-kondo/hooks"]
+ #object[java.io.File 0x43241a3b "/home/aexkxo/Git/cider-nrepl/.clj-kondo/hooks/core.clj"]
+ #object[java.io.File 0x708feb15 "/home/aexkxo/Git/cider-nrepl/.dir-locals.el"]
+ #object[java.io.File 0x33647823 "/home/aexkxo/Git/cider-nrepl/.gitattributes"]
+ #object[java.io.File 0x7d21e5f "/home/aexkxo/Git/cider-nrepl/.github"]
+ #object[java.io.File 0x6444395c "/home/aexkxo/Git/cider-nrepl/.github/CONTRIBUTING.md"]
+ #object[java.io.File 0x6b1cb182 "/home/aexkxo/Git/cider-nrepl/.github/ISSUE_TEMPLATE.md"]
+ #object[java.io.File 0x7b2979a2 "/home/aexkxo/Git/cider-nrepl/.github/PULL_REQUEST_TEMPLATE.md"]
+ #object[java.io.File 0x6c1ea07e "/home/aexkxo/Git/cider-nrepl/.gitignore"]
+ #object[java.io.File 0x2955ea78 "/home/aexkxo/Git/cider-nrepl/CHANGELOG.md"]
+ #object[java.io.File 0x274bde71 "/home/aexkxo/Git/cider-nrepl/Makefile"]
+ #object[java.io.File 0x171f4753 "/home/aexkxo/Git/cider-nrepl/README.md"]
+ #object[java.io.File 0xe1b089e "/home/aexkxo/Git/cider-nrepl/bin"]
+ #object[java.io.File 0x89b250f "/home/aexkxo/Git/cider-nrepl/bin/ci_detect_timeout"]
+ #object[java.io.File 0x71dada3b "/home/aexkxo/Git/cider-nrepl/doc"]
+ #object[java.io.File 0x1c122e8c "/home/aexkxo/Git/cider-nrepl/doc/antora.yml"]
+ #object[java.io.File 0x4a9b9a68 "/home/aexkxo/Git/cider-nrepl/doc/modules"]
+ #object[java.io.File 0x1b797d69 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT"]
+ #object[java.io.File 0x3cd5773f "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/nav.adoc"]
+ #object[java.io.File 0x31be4867 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages"]
+ #object[java.io.File 0x2760cce2 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/about"]
+ #object[java.io.File 0x77226f52 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/about/changelog.adoc"]
+ #object[java.io.File 0x60599206 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/about/history.adoc"]
+ #object[java.io.File 0x23e7031a "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/about/license.adoc"]
+ #object[java.io.File 0x2c1cc58 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/compatibility.adoc"]
+ #object[java.io.File 0x667d7bad "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/faq.adoc"]
+ #object[java.io.File 0x4a981cc6 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/hacking.adoc"]
+ #object[java.io.File 0x51fc395c "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/index.adoc"]
+ #object[java.io.File 0x5dd38c37 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/internals.adoc"]
+ #object[java.io.File 0x50fe3433 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/nrepl-api"]
+ #object[java.io.File 0x5a0a7cc6 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/nrepl-api/ops.adoc"]
+ #object[java.io.File 0x6a0c9802 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/nrepl-api/supplied_middleware.adoc"]
+ #object[java.io.File 0x2b7f1340 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/release_policy.adoc"]
+ #object[java.io.File 0xa01f5b0 "/home/aexkxo/Git/cider-nrepl/doc/modules/ROOT/pages/usage.adoc"]
+ #object[java.io.File 0x3e4447a "/home/aexkxo/Git/cider-nrepl/eastwood.clj"]
+ #object[java.io.File 0xd26108c "/home/aexkxo/Git/cider-nrepl/maint"]
+ #object[java.io.File 0x5e90f77b "/home/aexkxo/Git/cider-nrepl/maint/cider"]
+ #object[java.io.File 0x5bb9356c "/home/aexkxo/Git/cider-nrepl/maint/cider/nrepl"]
+ #object[java.io.File 0x7adf6df5 "/home/aexkxo/Git/cider-nrepl/maint/cider/nrepl/impl"]
+ #object[java.io.File 0x47c0a052 "/home/aexkxo/Git/cider-nrepl/maint/cider/nrepl/impl/docs.clj"]
+ #object[java.io.File 0x1eb2acfe "/home/aexkxo/Git/cider-nrepl/project.clj"]
+ #object[java.io.File 0xc32e811 "/home/aexkxo/Git/cider-nrepl/resources"]
+ #object[java.io.File 0xd838ca7 "/home/aexkxo/Git/cider-nrepl/resources/cider"]
+ #object[java.io.File 0x4f036f75 "/home/aexkxo/Git/cider-nrepl/resources/cider/nrepl"]
+ #object[java.io.File 0x445dff37 "/home/aexkxo/Git/cider-nrepl/resources/cider/nrepl/content-types.edn"]
+ #object[java.io.File 0x5f34e5cd "/home/aexkxo/Git/cider-nrepl/resources/cider/nrepl/version.edn"]
+ #object[java.io.File 0x4e43bc38 "/home/aexkxo/Git/cider-nrepl/src"]
+ #object[java.io.File 0x1aef1a42 "/home/aexkxo/Git/cider-nrepl/src/cider"]
+ #object[java.io.File 0x31e0fa6f "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl.clj"]
+ #object[java.io.File 0x49027b13 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl"]
+ #object[java.io.File 0x1a73ac77 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware.clj"]
+ #object[java.io.File 0x782c8871 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware"]
+ #object[java.io.File 0x4ea92699 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/apropos.clj"]
+ #object[java.io.File 0x142916bc "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/classpath.clj"]
+ #object[java.io.File 0x133e105a "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/clojuredocs.clj"]
+ #object[java.io.File 0xfcd7d4c "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/complete.clj"]
+ #object[java.io.File 0x8571fc2 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/content_type.clj"]
+ #object[java.io.File 0x54976482 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/debug.clj"]
+ #object[java.io.File 0x37c8028a "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/enlighten.clj"]
+ #object[java.io.File 0x530b3e22 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/format.clj"]
+ #object[java.io.File 0x6392828e "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/info.clj"]
+ #object[java.io.File 0xc4e590a "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/inspect.clj"]
+ #object[java.io.File 0x7be5c65b "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/log.clj"]
+ #object[java.io.File 0x71950d2b "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/macroexpand.clj"]
+ #object[java.io.File 0x6647765 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/ns.clj"]
+ #object[java.io.File 0x781cf8aa "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/out.clj"]
+ #object[java.io.File 0x2d1e2eec "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/profile.clj"]
+ #object[java.io.File 0x743b8231 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/refresh.clj"]
+ #object[java.io.File 0x51c11c8c "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/resource.clj"]
+ #object[java.io.File 0x4e0777b6 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/slurp.clj"]
+ #object[java.io.File 0x12b249d4 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/spec.clj"]
+ #object[java.io.File 0x3ab06bb9 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/stacktrace.clj"]
+ #object[java.io.File 0x634c351f "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/test.clj"]
+ #object[java.io.File 0x16035407 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/test"]
+ #object[java.io.File 0x167f43fa "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/test/extensions.clj"]
+ #object[java.io.File 0x2f2b1f2f "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/trace.clj"]
+ #object[java.io.File 0x2d4d3318 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/track_state.clj"]
+ #object[java.io.File 0x21e2e9da "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/undef.clj"]
+ #object[java.io.File 0x4dee0e8f "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/util.clj"]
+ #object[java.io.File 0x3a4ba27a "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/util"]
+ #object[java.io.File 0x7e5a93d8 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/util/cljs.clj"]
+ #object[java.io.File 0x484009f0 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/util/coerce.clj"]
+ #object[java.io.File 0x7567fc01 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/util/error_handling.clj"]
+ #object[java.io.File 0x12d8d8a5 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/util/instrument.clj"]
+ #object[java.io.File 0x38b65d75 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/util/meta.clj"]
+ #object[java.io.File 0x7071dc1a "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/util/nrepl.clj"]
+ #object[java.io.File 0x3abcb1e1 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/version.clj"]
+ #object[java.io.File 0x6ef54be3 "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/middleware/xref.clj"]
+ #object[java.io.File 0x6422febd "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/pprint.clj"]
+ #object[java.io.File 0x1acd6f2f "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/print_method.clj"]
+ #object[java.io.File 0x45a1e62e "/home/aexkxo/Git/cider-nrepl/src/cider/nrepl/version.clj"]
+ #object[java.io.File 0x14f172a "/home/aexkxo/Git/cider-nrepl/src/cider/tasks.clj"]
+ #object[java.io.File 0x72ebd6a8 "/home/aexkxo/Git/cider-nrepl/src/cider_nrepl"]
+ #object[java.io.File 0x32e7bcd "/home/aexkxo/Git/cider-nrepl/src/cider_nrepl/plugin.clj"]
+ #object[java.io.File 0x49f47d10 "/home/aexkxo/Git/cider-nrepl/src/data_readers.clj"]
+ #object[java.io.File 0x307bc543 "/home/aexkxo/Git/cider-nrepl/test"]
+ #object[java.io.File 0x1c090b72 "/home/aexkxo/Git/cider-nrepl/test/clj"]
+ #object[java.io.File 0x6c89eb2d "/home/aexkxo/Git/cider-nrepl/test/clj/cider"]
+ #object[java.io.File 0x67f0751 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl"]
+ #object[java.io.File 0x68c09b00 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware"]
+ #object[java.io.File 0x3cc65ff1 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/apropos_test.clj"]
+ #object[java.io.File 0x1f350bc7 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/classpath_test.clj"]
+ #object[java.io.File 0x610ec2ff "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/clojuredocs_test.clj"]
+ #object[java.io.File 0xd7a4d45 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/complete_test.clj"]
+ #object[java.io.File 0x34da2cc "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/content_type_test.clj"]
+ #object[java.io.File 0x3491fa51 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/debug_integration_test.clj"]
+ #object[java.io.File 0x239fcf06 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/debug_test.clj"]
+ #object[java.io.File 0x7c50ae55 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/format_test.clj"]
+ #object[java.io.File 0x126538d1 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/info_test.clj"]
+ #object[java.io.File 0x291d0bbe "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/inspect_test.clj"]
+ #object[java.io.File 0x74a71664 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/log_test.clj"]
+ #object[java.io.File 0xd7c3ca3 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/macroexpand_test.clj"]
+ #object[java.io.File 0x36e43e6d "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/ns_test.clj"]
+ #object[java.io.File 0x776593f4 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/out_test.clj"]
+ #object[java.io.File 0x3b3dbf4a "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/profile_test.clj"]
+ #object[java.io.File 0x57c805aa "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/refresh_test.clj"]
+ #object[java.io.File 0x40484e68 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/resource_test.clj"]
+ #object[java.io.File 0x1be99fa6 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/slurp_test.clj"]
+ #object[java.io.File 0x4df8a47e "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/spec_test.clj"]
+ #object[java.io.File 0x5a0a1d3e "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/stacktrace_test.clj"]
+ #object[java.io.File 0x58b32319 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/test"]
+ #object[java.io.File 0xf708306 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/test/extensions_test.clj"]
+ #object[java.io.File 0x7230dc2 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/test_filter_tests.clj"]
+ #object[java.io.File 0xdca13f5 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/test_test.clj"]
+ #object[java.io.File 0x4c2042be "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/trace_test.clj"]
+ #object[java.io.File 0x47c3808f "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/track_state_test.clj"]
+ #object[java.io.File 0x5811d8a8 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/undef_test.clj"]
+ #object[java.io.File 0x5992de4 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/util"]
+ #object[java.io.File 0x4b62aa5b "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/util/error_handling_test.clj"]
+ #object[java.io.File 0x10fe8c40 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/util/instrument_test.clj"]
+ #object[java.io.File 0x467cd26f "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/util/meta_test.clj"]
+ #object[java.io.File 0xa463149 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/version_test.clj"]
+ #object[java.io.File 0x54a87228 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/middleware/xref_test.clj"]
+ #object[java.io.File 0x30507871 "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/plugin_test.clj"]
+ #object[java.io.File 0x109f2bbe "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/print_method_test.clj"]
+ #object[java.io.File 0x2b688c9d "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl/version_test.clj"]
+ #object[java.io.File 0x3cc692ea "/home/aexkxo/Git/cider-nrepl/test/clj/cider/nrepl_test.clj"]
+ #object[java.io.File 0xf66f6f3 "/home/aexkxo/Git/cider-nrepl/test/cljs"]
+ #object[java.io.File 0x66cdee7a "/home/aexkxo/Git/cider-nrepl/test/cljs/cider"]
+ #object[java.io.File 0x92e8a5a "/home/aexkxo/Git/cider-nrepl/test/cljs/cider/nrepl"]
+ #object[java.io.File 0x1770857 "/home/aexkxo/Git/cider-nrepl/test/cljs/cider/nrepl/middleware"]
+ #object[java.io.File 0x399ea7e4 "/home/aexkxo/Git/cider-nrepl/test/cljs/cider/nrepl/middleware/cljs_complete_test.clj"]
+ #object[java.io.File 0x30293093 "/home/aexkxo/Git/cider-nrepl/test/cljs/cider/nrepl/middleware/cljs_info_test.clj"]
+ #object[java.io.File 0x4da80096 "/home/aexkxo/Git/cider-nrepl/test/cljs/cider/nrepl/middleware/cljs_inspect_test.clj"]
+ #object[java.io.File 0x74a48cc4 "/home/aexkxo/Git/cider-nrepl/test/cljs/cider/nrepl/middleware/cljs_macroexpand_test.clj"]
+ #object[java.io.File 0x3849a433 "/home/aexkxo/Git/cider-nrepl/test/cljs/cider/nrepl/middleware/cljs_ns_test.clj"]
+ #object[java.io.File 0x411da601 "/home/aexkxo/Git/cider-nrepl/test/cljs/cider/nrepl/middleware/cljs_stacktrace_test.clj"]
+ #object[java.io.File 0x4cbca204 "/home/aexkxo/Git/cider-nrepl/test/cljs/cider/nrepl/piggieback_test.clj"]
+ #object[java.io.File 0x1c2ed5fb "/home/aexkxo/Git/cider-nrepl/test/common"]
+ #object[java.io.File 0x69339271 "/home/aexkxo/Git/cider-nrepl/test/common/cider"]
+ #object[java.io.File 0x45320cf8 "/home/aexkxo/Git/cider-nrepl/test/common/cider/nrepl"]
+ #object[java.io.File 0x6cb73ad8 "/home/aexkxo/Git/cider-nrepl/test/common/cider/nrepl/test_session.clj"]
+ #object[java.io.File 0x6dcabb8 "/home/aexkxo/Git/cider-nrepl/test/common/cider/nrepl/test_transport.clj"]
+ #object[java.io.File 0x73091108 "/home/aexkxo/Git/cider-nrepl/test/common/cider/test_ns"]
+ #object[java.io.File 0x2609865d "/home/aexkxo/Git/cider-nrepl/test/common/cider/test_ns/first_test_ns.clj"]
+ #object[java.io.File 0x733d19be "/home/aexkxo/Git/cider-nrepl/test/common/cider/test_ns/second_test_ns.clj"]
+ #object[java.io.File 0x105ffd0a "/home/aexkxo/Git/cider-nrepl/test/common/cider/test_ns/third_test_ns.clj"]
+ #object[java.io.File 0x2be53f58 "/home/aexkxo/Git/cider-nrepl/test/common/cider_nrepl"]
+ #object[java.io.File 0x41b47f17 "/home/aexkxo/Git/cider-nrepl/test/common/cider_nrepl/plugin_test.clj"]
+ #object[java.io.File 0x5adf7e76 "/home/aexkxo/Git/cider-nrepl/test/java"]
+ #object[java.io.File 0x35076f8a "/home/aexkxo/Git/cider-nrepl/test/java/cider"]
+ #object[java.io.File 0x379a898d "/home/aexkxo/Git/cider-nrepl/test/java/cider/nrepl"]
+ #object[java.io.File 0x55b414ae "/home/aexkxo/Git/cider-nrepl/test/java/cider/nrepl/test"]
+ #object[java.io.File 0x7439eca0 "/home/aexkxo/Git/cider-nrepl/test/java/cider/nrepl/test/AnotherTestClass.java"]
+ #object[java.io.File 0x7a4ca692 "/home/aexkxo/Git/cider-nrepl/test/java/cider/nrepl/test/TestClass.java"]
+ #object[java.io.File 0x19f99eb7 "/home/aexkxo/Git/cider-nrepl/test/java/cider/nrepl/test/YetAnotherTest.java"]
+ #object[java.io.File 0x6c9de842 "/home/aexkxo/Git/cider-nrepl/test/resources"]
+ #object[java.io.File 0x577a559d "/home/aexkxo/Git/cider-nrepl/test/resources/cider"]
+ #object[java.io.File 0x481d01d6 "/home/aexkxo/Git/cider-nrepl/test/resources/cider/nrepl"]
+ #object[java.io.File 0x1dc43244 "/home/aexkxo/Git/cider-nrepl/test/resources/cider/nrepl/clojuredocs"]
+ #object[java.io.File 0x1e981646 "/home/aexkxo/Git/cider-nrepl/test/resources/cider/nrepl/clojuredocs/export.edn"]
+ #object[java.io.File 0x1b4b6eb5 "/home/aexkxo/Git/cider-nrepl/test/resources/cider/nrepl/middleware"]
+ #object[java.io.File 0x3b78dfbb "/home/aexkxo/Git/cider-nrepl/test/resources/cider/nrepl/middleware/test_with_throwing_fixtures.clj"]
+ #object[java.io.File 0x7128c82 "/home/aexkxo/Git/cider-nrepl/test/resources/failing_test_ns.clj"]
+ #object[java.io.File 0x59669000 "/home/aexkxo/Git/cider-nrepl/test/resources/failing_test_ns_2.clj"]
+ #object[java.io.File 0x1998735f "/home/aexkxo/Git/cider-nrepl/test/resources/logback-test.xml"]
+ #object[java.io.File 0x6460f2d0 "/home/aexkxo/Git/cider-nrepl/test/resources/logging.properties"]
+ #object[java.io.File 0x77051442 "/home/aexkxo/Git/cider-nrepl/test/resources/sum-types-are-cool.jpg"]
+ #object[java.io.File 0x1a0e6c32 "/home/aexkxo/Git/cider-nrepl/test/resources/test.txt"]
+ #object[java.io.File 0x40d6f6a7 "/home/aexkxo/Git/cider-nrepl/test/resources/unknown.unknown"]
+ #object[java.io.File 0x23437a1f "/home/aexkxo/Git/cider-nrepl/test/smoketest"]
+ #object[java.io.File 0x7cbbdd31 "/home/aexkxo/Git/cider-nrepl/test/smoketest/.gitignore"]
+ #object[java.io.File 0x153d4168 "/home/aexkxo/Git/cider-nrepl/test/smoketest/project.clj"]
+ #object[java.io.File 0x62a9fea6 "/home/aexkxo/Git/cider-nrepl/test/smoketest/src"]
+ #object[java.io.File 0x5a02e36e "/home/aexkxo/Git/cider-nrepl/test/smoketest/src/smoketest"]
+ #object[java.io.File 0x78f2ef4a "/home/aexkxo/Git/cider-nrepl/test/smoketest/src/smoketest/core.clj"]
+ #object[java.io.File 0x7bbc73d "/home/aexkxo/Git/cider-nrepl/test/spec"]
+ #object[java.io.File 0x2aca45a2 "/home/aexkxo/Git/cider-nrepl/test/spec/cider"]
+ #object[java.io.File 0x679eda06 "/home/aexkxo/Git/cider-nrepl/test/spec/cider/nrepl"]
+ #object[java.io.File 0x879f100 "/home/aexkxo/Git/cider-nrepl/test/spec/cider/nrepl/middleware"]
+ #object[java.io.File 0x51a24d1d "/home/aexkxo/Git/cider-nrepl/test/spec/cider/nrepl/middleware/info_spec_test.clj"]
+ #object[java.io.File 0x29bde5de "/home/aexkxo/Git/cider-nrepl/test/src"]
+ #object[java.io.File 0x38e24405 "/home/aexkxo/Git/cider-nrepl/test/src/cider"]
+ #object[java.io.File 0x7f5443e8 "/home/aexkxo/Git/cider-nrepl/test/src/cider/nrepl"]
+ #object[java.io.File 0x3c5d23ba "/home/aexkxo/Git/cider-nrepl/test/src/cider/nrepl/middleware"]
+ #object[java.io.File 0x7a08b2fa "/home/aexkxo/Git/cider-nrepl/test/src/cider/nrepl/middleware/debug_integration_test"]
+ #object[java.io.File 0x50e013d2 "/home/aexkxo/Git/cider-nrepl/test/src/cider/nrepl/middleware/debug_integration_test/fn.clj"]
+ #object[java.io.File 0xd765125 "/home/aexkxo/Git/cider-nrepl/tools-deps-testing"]
+ #object[java.io.File 0x5863f3c2 "/home/aexkxo/Git/cider-nrepl/tools-deps-testing/deps.edn"]
+ #object[java.io.File 0x67c31556 "/home/aexkxo/Git/cider-nrepl/tools-deps-testing/example.clj"]
+ #object[java.io.File 0x37edf4ff "/home/aexkxo/Git/cider-nrepl/tools-deps-testing/macroexpand_tools_deps_test.clj"]
+ #object[java.io.File 0x82d645e "/home/aexkxo/Git/cider-nrepl/.enrich-classpath-lein-repl"]
+ #object[java.io.File 0x4f176b7a "/home/aexkxo/Git/cider-nrepl/target"]
+ #object[java.io.File 0x3081ae6b "/home/aexkxo/Git/cider-nrepl/target/stale"]
+ #object[java.io.File 0x6813fe88 "/home/aexkxo/Git/cider-nrepl/target/stale/leiningen.core.classpath.extract-native-dependencies"]
+ #object[java.io.File 0xbff6840 "/home/aexkxo/Git/cider-nrepl/target/classes"]
+ #object[java.io.File 0x7f478efe "/home/aexkxo/Git/cider-nrepl/target/classes/cider"]
+ #object[java.io.File 0x4208858b "/home/aexkxo/Git/cider-nrepl/target/classes/cider/nrepl"]
+ #object[java.io.File 0x3518c4fc "/home/aexkxo/Git/cider-nrepl/target/classes/cider/nrepl/test"]
+ #object[java.io.File 0x45d51777 "/home/aexkxo/Git/cider-nrepl/target/classes/cider/nrepl/test/AnotherTestClass.class"]
+ #object[java.io.File 0x6a6514d "/home/aexkxo/Git/cider-nrepl/target/classes/cider/nrepl/test/TestClass.class"]
+ #object[java.io.File 0x4a8cf "/home/aexkxo/Git/cider-nrepl/target/classes/cider/nrepl/test/YetAnotherTest.class"]
+ #object[java.io.File 0x73c8a317 "/home/aexkxo/Git/cider-nrepl/.nrepl-port"])
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:96:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:106:1).
+; EOF while reading, starting at line 33
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? ("cider-nrepl"
+ ".git"
+ "branches"
+ "hooks"
+ "applypatch-msg.sample"
+ "commit-msg.sample"
+ "post-update.sample"
+ "pre-applypatch.sample"
+ "pre-commit.sample"
+ "pre-merge-commit.sample"
+ "pre-push.sample"
+ "pre-receive.sample"
+ "push-to-checkout.sample"
+ "sendemail-validate.sample"
+ "update.sample"
+ "fsmonitor-watchman.sample"
+ "pre-rebase.sample"
+ "prepare-commit-msg.sample"
+ "info"
+ "exclude"
+ "description"
+ "refs"
+ "heads"
+ "master"
+ "tags"
+ "remotes"
+ "origin"
+ "HEAD"
+ "objects"
+ "pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.pack"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.rev"
+ "pack-376b8417b0276ebf4d0c6a6069e7dc6bcb36788b.idx"
+ "info"
+ "packed-refs"
+ "logs"
+ "refs"
+ "remotes"
+ "origin"
+ "HEAD"
+ "heads"
+ "master"
+ "HEAD"
+ "HEAD"
+ "config"
+ "index"
+ ".circleci"
+ "config.yml"
+ "deploy"
+ "deploy_release.clj"
+ ".clj-kondo"
+ "config.edn"
+ "hooks"
+ "core.clj"
+ ".dir-locals.el"
+ ".gitattributes"
+ ".github"
+ "CONTRIBUTING.md"
+ "ISSUE_TEMPLATE.md"
+ "PULL_REQUEST_TEMPLATE.md"
+ ".gitignore"
+ "CHANGELOG.md"
+ "Makefile"
+ "README.md"
+ "bin"
+ "ci_detect_timeout"
+ "doc"
+ "antora.yml"
+ "modules"
+ "ROOT"
+ "nav.adoc"
+ "pages"
+ "about"
+ "changelog.adoc"
+ "history.adoc"
+ "license.adoc"
+ "compatibility.adoc"
+ "faq.adoc"
+ "hacking.adoc"
+ "index.adoc"
+ "internals.adoc"
+ "nrepl-api"
+ "ops.adoc"
+ "supplied_middleware.adoc"
+ "release_policy.adoc"
+ "usage.adoc"
+ "eastwood.clj"
+ "maint"
+ "cider"
+ "nrepl"
+ "impl"
+ "docs.clj"
+ "project.clj"
+ "resources"
+ "cider"
+ "nrepl"
+ "content-types.edn"
+ "version.edn"
+ "src"
+ "cider"
+ "nrepl.clj"
+ "nrepl"
+ "middleware.clj"
+ "middleware"
+ "apropos.clj"
+ "classpath.clj"
+ "clojuredocs.clj"
+ "complete.clj"
+ "content_type.clj"
+ "debug.clj"
+ "enlighten.clj"
+ "format.clj"
+ "info.clj"
+ "inspect.clj"
+ "log.clj"
+ "macroexpand.clj"
+ "ns.clj"
+ "out.clj"
+ "profile.clj"
+ "refresh.clj"
+ "resource.clj"
+ "slurp.clj"
+ "spec.clj"
+ "stacktrace.clj"
+ "test.clj"
+ "test"
+ "extensions.clj"
+ "trace.clj"
+ "track_state.clj"
+ "undef.clj"
+ "util.clj"
+ "util"
+ "cljs.clj"
+ "coerce.clj"
+ "error_handling.clj"
+ "instrument.clj"
+ "meta.clj"
+ "nrepl.clj"
+ "version.clj"
+ "xref.clj"
+ "pprint.clj"
+ "print_method.clj"
+ "version.clj"
+ "tasks.clj"
+ "cider_nrepl"
+ "plugin.clj"
+ "data_readers.clj"
+ "test"
+ "clj"
+ "cider"
+ "nrepl"
+ "middleware"
+ "apropos_test.clj"
+ "classpath_test.clj"
+ "clojuredocs_test.clj"
+ "complete_test.clj"
+ "content_type_test.clj"
+ "debug_integration_test.clj"
+ "debug_test.clj"
+ "format_test.clj"
+ "info_test.clj"
+ "inspect_test.clj"
+ "log_test.clj"
+ "macroexpand_test.clj"
+ "ns_test.clj"
+ "out_test.clj"
+ "profile_test.clj"
+ "refresh_test.clj"
+ "resource_test.clj"
+ "slurp_test.clj"
+ "spec_test.clj"
+ "stacktrace_test.clj"
+ "test"
+ "extensions_test.clj"
+ "test_filter_tests.clj"
+ "test_test.clj"
+ "trace_test.clj"
+ "track_state_test.clj"
+ "undef_test.clj"
+ "util"
+ "error_handling_test.clj"
+ "instrument_test.clj"
+ "meta_test.clj"
+ "version_test.clj"
+ "xref_test.clj"
+ "plugin_test.clj"
+ "print_method_test.clj"
+ "version_test.clj"
+ "nrepl_test.clj"
+ "cljs"
+ "cider"
+ "nrepl"
+ "middleware"
+ "cljs_complete_test.clj"
+ "cljs_info_test.clj"
+ "cljs_inspect_test.clj"
+ "cljs_macroexpand_test.clj"
+ "cljs_ns_test.clj"
+ "cljs_stacktrace_test.clj"
+ "piggieback_test.clj"
+ "common"
+ "cider"
+ "nrepl"
+ "test_session.clj"
+ "test_transport.clj"
+ "test_ns"
+ "first_test_ns.clj"
+ "second_test_ns.clj"
+ "third_test_ns.clj"
+ "cider_nrepl"
+ "plugin_test.clj"
+ "java"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.java"
+ "TestClass.java"
+ "YetAnotherTest.java"
+ "resources"
+ "cider"
+ "nrepl"
+ "clojuredocs"
+ "export.edn"
+ "middleware"
+ "test_with_throwing_fixtures.clj"
+ "failing_test_ns.clj"
+ "failing_test_ns_2.clj"
+ "logback-test.xml"
+ "logging.properties"
+ "sum-types-are-cool.jpg"
+ "test.txt"
+ "unknown.unknown"
+ "smoketest"
+ ".gitignore"
+ "project.clj"
+ "src"
+ "smoketest"
+ "core.clj"
+ "spec"
+ "cider"
+ "nrepl"
+ "middleware"
+ "info_spec_test.clj"
+ "src"
+ "cider"
+ "nrepl"
+ "middleware"
+ "debug_integration_test"
+ "fn.clj"
+ "tools-deps-testing"
+ "deps.edn"
+ "example.clj"
+ "macroexpand_tools_deps_test.clj"
+ ".enrich-classpath-lein-repl"
+ "target"
+ "stale"
+ "leiningen.core.classpath.extract-native-dependencies"
+ "classes"
+ "cider"
+ "nrepl"
+ "test"
+ "AnotherTestClass.class"
+ "TestClass.class"
+ "YetAnotherTest.class"
+ ".nrepl-port")
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:96:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read test.ct with slurp and display the contents
+file does not exist
+Alex is cool
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:100:23).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:113:1).
+; EOF while reading, starting at line 43
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? 
+Please enter a file name => now read t1.txt with slurp and display the contents
+file does not exist
+; Syntax error (FileNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:103:23).
+; t1.txt (No such file or directory)
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
 Enter an option? 
