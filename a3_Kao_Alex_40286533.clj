@@ -21,16 +21,15 @@
     (read-line)))
 
 ; Get the list of files in the current folder
-(def f(io/file (System/getProperty "user.dir")
-))
+(def f (io/file (System/getProperty "user.dir")))
 (def fs (file-seq f))
 
 ; Display all files in the current folder
 (defn option1
-  [] 
+  []
   ; print the list of files in a format that is easy to read
   (clojure.pprint/pprint (map #(.getName %) fs)))
-  
+
 ; function to check if the file exists
 (defn file-exists?
   [file_name]
@@ -49,7 +48,7 @@
       (println "*** The file called" file_name "does not exist... ***"))
     ; slurp the file   
     ; read the file
-      ))
+    ))
     ;; (with-open [rdr (io/reader "/home/aexkxo/Git/a3_Kao_Alex_40286533/t1.txt")]
     ;;   (doseq [line (line-seq rdr)]
     ;;     (println line))))
@@ -108,15 +107,28 @@
   [file_name]
   (str/split (slurp file_name) #"\s"))
 
+
+; function that maps a list with an incrementing index as the key and the word as the value
+; and returns a map
+(defn map-index
+  [list_words]
+  (loop [i 0
+         map {}]
+    ; if the index is less than the length of the list
+    (if (< i (count list_words))
+      ; recur with the incremented index and the map with the index as the key and the word as the value
+      (recur (inc i) (assoc map i (nth list_words i)))
+      ; else return the map
+      map)))
+
+
 (defn load_data
   []
   (println "loading data...")
   ; read the file
-
-  ; split the file into words
   ; insert data in the map
+  (map-index (slice "frequency.txt"))
   ; return the map
-  
   )
 
 ; ------------------------------
@@ -127,4 +139,12 @@
 
 
 ;; playground
-(slice "frequency.txt")
+(print (map-index (slice "frequency.txt")))
+
+; function that writes a map in a file called test.txt
+(defn write-file
+  []
+  (spit "test.txt" (map-index (slice "frequency.txt"))))
+
+(write-file)
+
