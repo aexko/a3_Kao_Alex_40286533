@@ -29,10 +29,12 @@
 (defn option1
   [] 
   ; print the list of files in a format that is easy to read
-  ;; (clojure.pprint/pprint (map #(.getName %) fs)))
   (clojure.pprint/pprint (map #(.getName %) fs)))
   
-
+; function to check if the file exists
+(defn file-exists?
+  [file_name]
+  (.exists (io/file file_name)))
 
 ; Read and display the file contents (if the file exists). Java's File class can be used to 
 ; check for existence first. 
@@ -41,15 +43,13 @@
   (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
-    (println "now read" file_name "with slurp and display the contents")
     ; checks if the file exists
-    (if (.exists (io/file file_name))
-      (println "file exists")
-      (println "file does not exist"))
-    ; slurp the file
-    (println (slurp file_name))
+    (if (file-exists? file_name)
+      (slurp "frequency.txt")
+      (println "*** The file called" file_name "does not exist... ***"))
+    ; slurp the file   
     ; read the file
-    ))
+      ))
     ;; (with-open [rdr (io/reader "/home/aexkxo/Git/a3_Kao_Alex_40286533/t1.txt")]
     ;;   (doseq [line (line-seq rdr)]
     ;;     (println line))))
@@ -107,6 +107,7 @@
   []
   (println "load data here")
   ; read the file
+
   ; split the file into words
   ; insert data in the map
   ; return the map

@@ -4121,4 +4121,154 @@ clj꞉a3_Kao_Alex_40286533꞉> 
 4. Uncompress a file
 5. Exit
 
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:116:1).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/fs
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/fs
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/fs
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/fs
+clj꞉a3_Kao_Alex_40286533꞉> 
+#'a3_Kao_Alex_40286533/option2
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (ClassNotFoundException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:0:0).
+; frequency.txt
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; frequency.txt (No such file or directory)
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:116:1).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:120:1).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error compiling if at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:48:5).
+; Too many arguments to if
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
 Enter an option? 
+Please enter a file name => Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:118:1).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+; Syntax error reading source at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:122:1).
+; EOF while reading, starting at line 41
+; Evaluation of file a3_Kao_Alex_40286533.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:117:1).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:117:1).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:118:1).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Evaluating file: a3_Kao_Alex_40286533.clj
+
+
+*** Compression Menu ***
+------------------
+
+1. Display list of files
+2. Display file contents
+3. Compress a file
+4. Uncompress a file
+5. Exit
+
+Enter an option? Sending interrupt.; Evaluation of file a3_Kao_Alex_40286533.clj failed: Evaluation was interrupted
+clj꞉a3_Kao_Alex_40286533꞉> 
+; Syntax error (InterruptedException) compiling at (/home/aexkxo/Git/a3_Kao_Alex_40286533/a3_Kao_Alex_40286533.clj:117:1).
+; null
+clj꞉a3_Kao_Alex_40286533꞉> 
