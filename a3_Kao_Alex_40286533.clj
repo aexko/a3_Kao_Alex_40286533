@@ -108,26 +108,17 @@
   (str/split (slurp file_name) #"\s"))
 
 
-; function that maps a list with an incrementing index as the key and the word as the value
-; and returns a map
-(defn map-index
+; function that maps a list of words to a map with the index (incremented as the key and the word as the value
+(defn mapping-freq
   [list_words]
-  (loop [i 0
-         map {}]
-    ; if the index is less than the length of the list
-    (if (< i (count list_words))
-      ; recur with the incremented index and the map with the index as the key and the word as the value
-      (recur (inc i) (assoc map i (nth list_words i)))
-      ; else return the map
-      map)))
-
+  (zipmap (range) list_words))
 
 (defn load_data
   []
   (println "loading data...")
   ; read the file
   ; insert data in the map
-  (map-index (slice "frequency.txt"))
+  (mapping-freq (slice "frequency.txt"))
   ; return the map
   )
 
@@ -139,12 +130,12 @@
 
 
 ;; playground
-(print (map-index (slice "frequency.txt")))
+(print (mapping-freq (slice "frequency.txt")))
 
 ; function that writes a map in a file called test.txt
 (defn write-file
   []
-  (spit "test.txt" (map-index (slice "frequency.txt"))))
+  (spit "test.txt" (mapping-freq (slice "frequency.txt"))))
 
 (write-file)
 
