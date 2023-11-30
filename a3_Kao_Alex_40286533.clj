@@ -118,16 +118,9 @@
 ; map that contains the words and their index
 (def main-map-words (mapping-words (slice "frequency.txt")))
 
-
-(defn load_data
-  []
-  (println "loading data...")
-  (mapping-words (slice "frequency.txt"))
-  )
-
 ; Function that compresses a file with the help of a map called "main-map-words"
 ; that contains the words and their index.
-; It replaces the words in the file with their index in the map
+; It replaces the number of the word in the file with the index in the map
 ; If the word is not in the map, it doesn't replace it with anything
 ; It returns a string in which the words are replaced with their index
 (defn compress
@@ -139,24 +132,35 @@
         (recur (inc index) (str string " " (main-map-words (nth (slice file_name) index))))
         (recur (inc index) (str string " " (nth (slice file_name) index))))
       string)))
-  
+; It's the reverse of compress. It takes a compressed file and decompresses it
+; with the help of the map "main-map-words"
+; It replaces the index of the word with the word itself
+; If the index is not in the map, it doesn't replace it with anything
+; It returns a string in which the index are replaced with their words
+(defn decompress
+  [file_name]
+  (loop [index 0
+         string ""]
+    (if (< index (count (slice "t1.txt.ct")))
+      (if (contains? main-map-words (nth (slice "t1.txt.ct") index))
+        (recur (inc index) (str string " " (key (get main-map-words (nth (slice "t1.txt.ct") index)))))
+        (recur (inc index) (str string " " (nth (slice "t1.txt.ct") index))))
+      string)))
 
 ; ------------------------------
 ; Run the program. You might want to prepare the data required for the mapping operations
 ; before you display the menu. You don't have to do this but it might make some things easier
 
-(load_data)
 ;; (menu) ; other args(s) can be passed here, if needed
 
 
 ;; playground
 
 ; function that writes a map in a file called test.txt
-(defn write-file
-  []
-  (spit "test.txt" (compress "t1.txt")))
 
-(write-file)
+(spit "t1.txt.ct" (compress "t1.txt"))
+(spit "t1.txt.dt" (decompress "t1.txt.ct"))
+;; (spit "test.txt" (decompress "t1.txt"))
 ;; (print (compress "t1.txt"))
 
 
