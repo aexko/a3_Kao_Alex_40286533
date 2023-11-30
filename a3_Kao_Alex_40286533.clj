@@ -1,5 +1,5 @@
 (ns a3_Kao_Alex_40286533
-  (:require [clojure.pprint :as clojure.pprint]
+  (:require [clojure.pprint :as prt]
             [clojure.string :as str]
             [clojure.java.io :as io]))
   ; this is where you would also include/require the compress module
@@ -27,10 +27,10 @@
 ; Display all files in the current folder
 (defn option1
   []
-  ; print the list of files in a format that is easy to read
-  (clojure.pprint/pprint (map #(.getName %) fs)))
+  ; print the list of files in a pretty way
+  (prt/pprint (map #(.getName %) fs)))
 
-; function to check if the file exists
+; Function that checks if the file exists
 (defn file-exists?
   [file_name]
   (.exists (io/file file_name)))
@@ -42,17 +42,10 @@
   (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
-    ; checks if the file exists
+    ; if the file exists, print the content of the file
     (if (file-exists? file_name)
-      (slurp "frequency.txt")
-      (println "*** The file called" file_name "does not exist... ***"))
-    ; slurp the file   
-    ; read the file
-    ))
-    ;; (with-open [rdr (io/reader "/home/aexkxo/Git/a3_Kao_Alex_40286533/t1.txt")]
-    ;;   (doseq [line (line-seq rdr)]
-    ;;     (println line))))
-
+      (println (slurp file_name))
+      (println (str "### The file " file_name " does not exist. ###")))))
 
 
 ; Compress the (valid) file provided by the user. You will replace the println expression with code 
@@ -102,40 +95,45 @@
         (recur)))))   ; other args(s) can be passed here, if needed
 
 
-; function that slice the file into a list of words with a space as a delimiter
+; Function that slices the file into a list of words with a space as a delimiter
 (defn slice
   [file_name]
   (str/split (slurp file_name) #"\s"))
 
 
-; function that maps a list of words to a map with the index (incremented as the key and the word as the value
-(defn mapping-freq
+; Function that creates a map with the words as values and the index as keys.It
+; also checks if the word is already in the map: if it is, it doesn't add it
+; to the map
+(defn mapping-words
   [list_words]
-  (zipmap (range) list_words))
+  (loop [index 0
+         map {}]
+    (if (< index (count list_words))
+      (if (contains? map (nth list_words index))
+        (recur (inc index) map)
+        (recur (inc index) (assoc map (nth list_words index) index)))
+      map)))
 
 (defn load_data
   []
   (println "loading data...")
-  ; read the file
-  ; insert data in the map
-  (mapping-freq (slice "frequency.txt"))
-  ; return the map
+  (mapping-words (slice "frequency.txt"))
   )
 
 ; ------------------------------
 ; Run the program. You might want to prepare the data required for the mapping operations
 ; before you display the menu. You don't have to do this but it might make some things easier
 
+(load_data)
 ;; (menu) ; other args(s) can be passed here, if needed
 
 
 ;; playground
-(print (mapping-freq (slice "frequency.txt")))
+(print (mapping-words (slice "frequency.txt")))
 
 ; function that writes a map in a file called test.txt
 (defn write-file
   []
-  (spit "test.txt" (mapping-freq (slice "frequency.txt"))))
+  (spit "test.txt" (mapping-words (slice "frequency.txt"))))
 
-(write-file)
 
