@@ -58,6 +58,7 @@
     (println "now compress" file_name "with with the functions(s) you provide in compress.clj")))
 
 
+
 ; Decompress the (valid) file provided by the user. You will replace the println expression with code 
 ; that calls your decompression function
 (defn option4
@@ -94,7 +95,6 @@
         (processOption option)
         (recur)))))   ; other args(s) can be passed here, if needed
 
-
 ; Function that slices the file into a list of words with a space as a delimiter
 (defn slice
   [file_name]
@@ -114,11 +114,32 @@
         (recur (inc index) (assoc map (nth list_words index) index)))
       map)))
 
+
+; map that contains the words and their index
+(def main-map-words (mapping-words (slice "frequency.txt")))
+
+
 (defn load_data
   []
   (println "loading data...")
   (mapping-words (slice "frequency.txt"))
   )
+
+; Function that compresses a file with the help of a map called "main-map-words"
+; that contains the words and their index.
+; It replaces the words in the file with their index in the map
+; If the word is not in the map, it doesn't replace it with anything
+; It returns a string in which the words are replaced with their index
+(defn compress
+  [file_name]
+  (loop [index 0
+         string ""]
+    (if (< index (count (slice file_name)))
+      (if (contains? main-map-words (nth (slice file_name) index))
+        (recur (inc index) (str string " " (main-map-words (nth (slice file_name) index))))
+        (recur (inc index) (str string " " (nth (slice file_name) index))))
+      string)))
+  
 
 ; ------------------------------
 ; Run the program. You might want to prepare the data required for the mapping operations
@@ -129,11 +150,13 @@
 
 
 ;; playground
-(print (mapping-words (slice "frequency.txt")))
 
 ; function that writes a map in a file called test.txt
 (defn write-file
   []
-  (spit "test.txt" (mapping-words (slice "frequency.txt"))))
+  (spit "test.txt" (compress "t1.txt")))
+
+(write-file)
+;; (print (compress "t1.txt"))
 
 
