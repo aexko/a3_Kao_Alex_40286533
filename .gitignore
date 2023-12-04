@@ -12,3 +12,10 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+
+# calva
+/.calva/
+/.shadow-cljs/
+/.lsp/
+/.nrepl-port
+/.cljs_node_repl/
