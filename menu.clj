@@ -37,8 +37,8 @@
   [file_name]
   (.exists (io/file file_name)))
 
-; Read and display the file contents (if the file exists). Java's File class can be used to 
-; check for existence first. 
+; Read and display the file contents (if the file exists). Java's File class can
+; be used to check for existence first. 
 (defn option2
   []
   (print "\nPlease enter a file name => ")
@@ -50,24 +50,26 @@
       (println (str "### The file " file_name " does not exist. ###")))))
 
 
-; Compress the (valid) file provided by the user. You will replace the println expression with code 
-; that calls your compression function
+; Compress the (valid) file provided by the user. You will replace the println
+; expression with code that calls your compression function
 (defn option3
   [] ;parm(s) can be provided here, if needed
   (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
-    (println "now compress" file_name "with with the functions(s) you provide in compress.clj")))
+    (println "now compress" file_name "with with the functions(s) you provide 
+    in compress.clj")))
 
 
-; Decompress the (valid) file provided by the user. You will replace the println expression with code 
-; that calls your decompression function
+; Decompress the (valid) file provided by the user. You will replace the println
+; expression with code that calls your decompression function
 (defn option4
   [] ;parm(s) can be provided here, if needed
   (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
-    (println "now decompress" file_name "with with the functions(s) you provide in compress.clj")))
+    (println "now decompress" file_name "with with the functions(s) you provide 
+    in compress.clj")))
 
 
 ; If the menu selection is valid, call the relevant function to 
@@ -97,8 +99,9 @@
         (recur)))))   ; other args(s) can be passed here, if needed
 
 ; ------------------------------
-; Run the program. You might want to prepare the data required for the mapping operations
-; before you display the menu. You don't have to do this but it might make some things easier
+; Run the program. You might want to prepare the data required for the mapping 
+; operations before you display the menu. You don't have to do this but it might
+; make some things easier
 
 ;; (menu) ; other args(s) can be passed here, if needed
 
