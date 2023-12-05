@@ -19,3 +19,4 @@ pom.xml.asc
 /.lsp/
 /.nrepl-port
 /.cljs_node_repl/
+/.clj-kondo/
