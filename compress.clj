@@ -32,12 +32,29 @@
 (defn compress
   [file_name]
   (loop [index 0
-         string ""]
+         output []]
     (if (< index (count (slice file_name)))
       (if (contains? main-map-words (nth (slice file_name) index))
-        (recur (inc index) (str string " " (main-map-words (nth (slice file_name) index))))
-        (recur (inc index) (str string " " (nth (slice file_name) index))))
-      string)))
+        (recur (inc index) (conj output (str (main-map-words (nth (slice file_name) index)) " ")))
+        (recur (inc index) (conj output (nth (slice file_name) index))))
+      output)))
+
+(defn print-list
+  [list]
+  (loop [index 0]
+    (if (< index (count list))
+      (do
+        (print (nth list index))
+        (recur (inc index))))))
+
+(defn write-file
+  [file_name list]
+  (spit file_name (apply str list)))
+
+;; (write-file "compressed.txt" (compress "t1.txt"))
+
+
+
 
 ; It's the reverse of compress. It takes a compressed file and decompresses it
 ; with the help of the map "main-map-words"
@@ -45,12 +62,14 @@
 ; the replace function in clojure.string library
 ; If the index is not in the map, it doesn't replace it with anything
 ; It returns a string in which the index are replaced with their words
-(defn decompress
-  [file_name]
-    (loop [index 0
-             string ""]
-        (if (< index (count (slice file_name)))
-        (if (contains? main-map-words (nth (slice file_name) index))
-            (recur (inc index) (str string " " (str/replace (nth (slice file_name) index) (str index) (str (main-map-words (nth (slice file_name) index))))))
-            (recur (inc index) (str string " " (nth (slice file_name) index))))
-        string)))
+    (defn decompress
+      [file_name]
+      (loop [index 0
+              output []]
+          (if (< index (count (slice file_name)))
+            (if (contains? main-map-words (nth (slice file_name) index))
+              (recur (inc index) (conj output (str (replace (str index) main-map-words) " ")))
+              (recur (inc index) (conj output (nth (slice file_name) index))))
+          )))
+    
+(write-file "decompressed.txt" (decompress "compressed.txt"))

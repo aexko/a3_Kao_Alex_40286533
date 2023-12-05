@@ -103,9 +103,4 @@
 ;; (menu) ; other args(s) can be passed here, if needed
 
 
-(spit "t1.txt.ct" (compress/compress "t1.txt"))
-(spit "t1.txt.dt" (compress/decompress "t1.txt.ct"))
-;; (spit "test.txt" (decompress "t1.txt"))
-;; (print (compress "t1.txt"))
-
 
