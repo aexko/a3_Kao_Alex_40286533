@@ -19,7 +19,6 @@
     (flush)
     (read-line)))
 
-
 ; Get the list of files in the current folder
 (def f (io/file (System/getProperty "user.dir")))
 (def fs (file-seq f))
@@ -52,18 +51,20 @@
   (flush)
   (let [file-name (read-line)]
     (if (file-exists? file-name)
-      (compress/compress file-name)
+      (spit (str file-name ".ct") (compress/compress file-name))
       (println (str "### The file " file-name " does not exist. ###")))))
 
 
 
 ; Decompress the (valid) file provided by the user. You will replace the println
 ; expression with code that calls your decompression function
-(defn option4 [] ;parm(s) can be provided here, if needed
+(defn option4 []
   (print "\nPlease enter a file name => ")
   (flush)
   (let [file-name (read-line)]
-    (compress/decompress file-name)))
+    (if (file-exists? file-name)
+      (spit (str file-name ".dt") (compress/decompress file-name))
+      (println (str "### The file " file-name " does not exist. ###")))))
 
 
 ; If the menu selection is valid, call the relevant function to 
@@ -88,14 +89,14 @@
       (println "\nGood Bye\n")
       (do
         (processOption option)
-        (recur)))))   ; other args(s) can be passed here, if needed
+        (recur)))))
 
 ; ------------------------------
 ; Run the program. You might want to prepare the data required for the mapping 
 ; operations before you display the menu. You don't have to do this but it might
 ; make some things easier
 
-(menu) ; other args(s) can be passed here, if needed
+(menu)
 
 
 
