@@ -4,6 +4,9 @@
             [clojure.java.io :as io]
             [compress :as compress]))
 
+; ------------------------------
+; Note: ONLY t1.txt has been tested, punctuations are not handled, neither are
+; numbers.
 
 ; Display the menu and ask the user for the option
 (defn showMenu []

@@ -38,7 +38,6 @@
 ; in the map. It replaces the number of the word in the file with the index in
 ; the map. If the word is not in the map, it doesn't replace it with anything
 ; It returns a string in which the words are replaced with their index.
-; It also saves the punctuation marks.
 (defn compress [file-name]
   (loop [new-string "" current-index 0]
     ; checks if the current-index is less than the length of the list
