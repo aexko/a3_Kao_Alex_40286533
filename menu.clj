@@ -54,7 +54,8 @@
   (flush)
   (let [file-name (read-line)]
     (if (file-exists? file-name)
-      (spit (str file-name ".ct") (compress/compress file-name))
+      (do (println (compress/compress file-name))
+          (spit (str file-name ".ct") (compress/compress file-name)))
       (println (str "### The file " file-name " does not exist. ###")))))
 
 
