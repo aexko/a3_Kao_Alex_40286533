@@ -26,16 +26,12 @@
 ; Function that maps the words with their index
 (defn map-words
   [list]
-  (loop [new-map {} current-index 0]
-    ; checks if the current-index is less than the length of the list
-    (if (< current-index (count list))
-      ; adds the word and its index to the map
-      (recur (assoc new-map (nth list current-index) current-index) (inc current-index))
-      new-map)))
+  (zipmap (range (count list)) list))
 
 ; Map that contains the words and their index
 (def main-map-words (map-words (check-duplicates (slice "frequency.txt"))))
 
+(spit "map.txt" (str main-map-words))
 
 ; Function that compresses a file with the help of a map called " main-map-words "
 ; that contains the words and their index.
@@ -54,20 +50,23 @@
         (recur (str new-string (nth (slice file-name) current-index) " ") (inc current-index)))
       new-string)))
 
-(println(compress "t1.txt"))
+;; (println (compress "t1.txt"))
 
 
 ; Function that decompresses a file with the help of a map called
-; "main-map-words" that contains the words and their index. If the index is
-; not in the map, it doesn't replace it with anything. 
+; "main-map-words" that contains the words and their index. It slices the file
+; into a list of numbers and replaces the numbers of the list with the words from the map.
+; This list is then converted into a string of words
+; It returns a string of words
 (defn decompress [file_name]
-  (loop [new-string "" current-index 0]
+  (loop [list-number [] current-index 0]
     ; checks if the current-index is less than the length of the list
     (if (< current-index (count (slice file_name)))
-      ; checks if the index is in the map
-      (if (contains? main-map-words (nth (slice file_name) current-index))
-        ; if it's in the map, it replaces the index with the word
-        (recur (str new-string (key (get main-map-words (nth (slice file_name) current-index))) " ") (inc current-index))
-        ; if it's not in the map, it doesn't replace it with anything
-        (recur (str new-string (nth (slice file_name) current-index) " ") (inc current-index)))
-      new-string)))
+      ; checks the number of the word in the list
+      (if (number? (read-string (nth (slice file_name) current-index)))
+        ; if it's a number, it adds it to the list
+        (recur (conj list-number (nth (slice file_name) current-index)) (inc current-index))
+        ; if it's not a number, it doesn't add it to the list
+        (recur list-number (inc current-index)))
+      list-number)))
+  (println (decompress "t1_number.txt"))
