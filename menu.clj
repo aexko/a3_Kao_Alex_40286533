@@ -66,7 +66,7 @@
   (flush)
   (let [file-name (read-line)]
     (if (file-exists? file-name)
-      (spit (str file-name ".dt") (compress/decompress file-name))
+      (println(compress/decompress file-name))
       (println (str "### The file " file-name " does not exist. ###")))))
 
 
