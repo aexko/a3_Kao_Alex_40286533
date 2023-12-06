@@ -30,19 +30,19 @@
   (prt/pprint (map #(.getName %) fs)))
 
 ; Function that checks if the file exists
-(defn file-exists? [file_name]
-  (.exists (io/file file_name)))
+(defn file-exists? [file-name]
+  (.exists (io/file file-name)))
 
 ; Read and display the file contents (if the file exists). Java's File class can
 ; be used to check for existence first. 
 (defn option2 []
   (print "\nPlease enter a file name => ")
   (flush)
-  (let [file_name (read-line)]
+  (let [file-name (read-line)]
     ; if the file exists, print the content of the file
-    (if (file-exists? file_name)
-      (println (slurp file_name))
-      (println (str "### The file " file_name " does not exist. ###")))))
+    (if (file-exists? file-name)
+      (println (slurp file-name))
+      (println (str "### The file " file-name " does not exist. ###")))))
 
 
 ; Compress the (valid) file provided by the user. You will replace the println
@@ -50,10 +50,10 @@
 (defn option3 []
   (print "\nPlease enter a file name => ")
   (flush)
-  (let [file_name (read-line)]
-    (if (file-exists? file_name)
-      (compress/compress file_name)
-      (println (str "### The file " file_name " does not exist. ###")))))
+  (let [file-name (read-line)]
+    (if (file-exists? file-name)
+      (compress/compress file-name)
+      (println (str "### The file " file-name " does not exist. ###")))))
 
 
 
@@ -62,8 +62,8 @@
 (defn option4 [] ;parm(s) can be provided here, if needed
   (print "\nPlease enter a file name => ")
   (flush)
-  (let [file_name (read-line)]
-    (compress/decompress file_name)))
+  (let [file-name (read-line)]
+    (compress/decompress file-name)))
 
 
 ; If the menu selection is valid, call the relevant function to 

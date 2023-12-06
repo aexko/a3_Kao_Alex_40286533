@@ -4,8 +4,8 @@
 
 ; Function that slices the file into a list of words
 (defn slice
-  [file_name]
-  (str/split (slurp file_name) #" "))
+  [file-name]
+  (str/split (slurp file-name) #" "))
 
 ; Function that removes the duplicates from the list of words and returns
 ; the list without duplicates
