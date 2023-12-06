@@ -3,12 +3,10 @@
             [clojure.string :as str]
             [clojure.java.io :as io]
             [compress :as compress]))
-  ; this is where you would also include/require the compress module
 
 
 ; Display the menu and ask the user for the option
-(defn showMenu
-  []
+(defn showMenu []
   (println "\n\n*** Compression Menu ***")
   (println "------------------\n")
   (println "1. Display list of files")
@@ -27,20 +25,17 @@
 (def fs (file-seq f))
 
 ; Display all files in the current folder
-(defn option1
-  []
-  ; print the list of files in a pretty way
+(defn option1 []
+  ; Print the list of files in a pretty way
   (prt/pprint (map #(.getName %) fs)))
 
 ; Function that checks if the file exists
-(defn file-exists?
-  [file_name]
+(defn file-exists? [file_name]
   (.exists (io/file file_name)))
 
 ; Read and display the file contents (if the file exists). Java's File class can
 ; be used to check for existence first. 
-(defn option2
-  []
+(defn option2 []
   (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
@@ -52,45 +47,42 @@
 
 ; Compress the (valid) file provided by the user. You will replace the println
 ; expression with code that calls your compression function
-(defn option3
-  [] ;parm(s) can be provided here, if needed
+(defn option3 []
   (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
-    (println "now compress" file_name "with with the functions(s) you provide 
-    in compress.clj")))
+    (if (file-exists? file_name)
+      (compress/compress file_name)
+      (println (str "### The file " file_name " does not exist. ###")))))
+
 
 
 ; Decompress the (valid) file provided by the user. You will replace the println
 ; expression with code that calls your decompression function
-(defn option4
-  [] ;parm(s) can be provided here, if needed
+(defn option4 [] ;parm(s) can be provided here, if needed
   (print "\nPlease enter a file name => ")
   (flush)
   (let [file_name (read-line)]
-    (println "now decompress" file_name "with with the functions(s) you provide 
-    in compress.clj")))
+    (compress/decompress file_name)))
 
 
 ; If the menu selection is valid, call the relevant function to 
 ; process the selection
-(defn processOption
-  [option] ; other parm(s) can be provided here, if needed
+(defn processOption [option]
   (if (= option "1")
     (option1)
     (if (= option "2")
       (option2)
       (if (= option "3")
-        (option3)  ; other args(s) can be passed here, if needed
+        (option3)
         (if (= option "4")
-          (option4)   ; other args(s) can be passed here, if needed
+          (option4)
           (println "Invalid Option, please try again"))))))
 
 
 ; Display the menu and get a menu item selection. Process the
 ; selection and then loop again to get the next menu selection
-(defn menu
-  [] ; parm(s) can be provided here, if needed
+(defn menu []
   (let [option (str/trim (showMenu))]
     (if (= option "5")
       (println "\nGood Bye\n")
@@ -103,7 +95,7 @@
 ; operations before you display the menu. You don't have to do this but it might
 ; make some things easier
 
-;; (menu) ; other args(s) can be passed here, if needed
+(menu) ; other args(s) can be passed here, if needed
 
 
 
